@@ -38,14 +38,18 @@ const Facade = () => {
         <div className="row">
           <div className="col">
             <div className="main-mini-heading-section">
-              <h1 className="mt-4 mb-2 page-heading-title">Entrance Page</h1>
-              <img
-                src={Logo}
-                alt="Leos International"
-                width={130}
-                height={40}
-                className="mt-3 mb-3"
-              />
+              <Link to={"/"}>
+                <h1 className="mt-4 mb-2 page-heading-title">Entrance Page</h1>
+              </Link>
+              <Link to="/">
+                <img
+                  src={Logo}
+                  alt="Leos International"
+                  width={130}
+                  height={40}
+                  className="mt-3 mb-3"
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -56,7 +60,7 @@ const Facade = () => {
             <div className="containing">
               <div id="slide">
                 <div
-                  className="items exterior-one-slide-one"
+                  className="items exterior-one-slide-ten"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -68,55 +72,7 @@ const Facade = () => {
                   </div>
                 </div>
                 <div
-                  className="items exterior-one-slide-two"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-three"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-four"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-five"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-one"
+                  className="items exterior-one-slide-eleven"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">

@@ -38,14 +38,18 @@ const Dusk = () => {
         <div className="row">
           <div className="col">
             <div className="main-mini-heading-section">
-              <h1 className="mt-4 mb-2 page-heading-title">Dusk Page</h1>
-              <img
-                src={Logo}
-                alt="Leos International"
-                width={130}
-                height={40}
-                className="mt-3 mb-3"
-              />
+              <Link to={"/"}>
+                <h1 className="mt-4 mb-2 page-heading-title">Dusk Page</h1>
+              </Link>
+              <Link to="/">
+                <img
+                  src={Logo}
+                  alt="Leos International"
+                  width={130}
+                  height={40}
+                  className="mt-3 mb-3"
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -56,7 +60,7 @@ const Dusk = () => {
             <div className="containing">
               <div id="slide">
                 <div
-                  className="items exterior-one-slide-one"
+                  className="items exterior-one-slide-seven"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -67,10 +71,7 @@ const Dusk = () => {
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-two"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                {/* <div className="items exterior-one-slide-eight">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -78,11 +79,8 @@ const Dusk = () => {
                     </div>
                     <button>See More</button>
                   </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-three"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                </div> */}
+                {/* <div className="items exterior-one-slide-three">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -90,11 +88,8 @@ const Dusk = () => {
                     </div>
                     <button>See More</button>
                   </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-four"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                </div> */}
+                {/* <div className="items exterior-one-slide-four">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -102,11 +97,8 @@ const Dusk = () => {
                     </div>
                     <button>See More</button>
                   </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-five"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                </div> */}
+                {/* <div className="items exterior-one-slide-five">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -114,11 +106,8 @@ const Dusk = () => {
                     </div>
                     <button>See More</button>
                   </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                </div> */}
+                {/* <div className="items exterior-one-slide-one">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -126,7 +115,7 @@ const Dusk = () => {
                     </div>
                     <button>See More</button>
                   </div>
-                </div>
+                </div> */}
                 <div className="buttons">
                   <button id="prev" onClick={handleLeftNavigation}>
                     <i className="fa-solid fa-angle-left">

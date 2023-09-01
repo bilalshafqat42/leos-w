@@ -38,14 +38,18 @@ const Exterior1 = () => {
         <div className="row">
           <div className="col">
             <div className="main-mini-heading-section">
-              <h1 className="mt-4 mb-2 page-heading-title">Exterior Page</h1>
-              <img
-                src={Logo}
-                alt="Leos International"
-                width={130}
-                height={40}
-                className="mt-3 mb-3"
-              />
+              <Link to={"/"}>
+                <h1 className="mt-4 mb-2 page-heading-title">Exterior Page</h1>
+              </Link>
+              <Link to="/">
+                <img
+                  src={Logo}
+                  alt="Leos International"
+                  width={130}
+                  height={40}
+                  className="mt-3 mb-3"
+                />
+              </Link>
             </div>
           </div>
         </div>
@@ -91,7 +95,7 @@ const Exterior1 = () => {
                     <button>See More</button>
                   </div>
                 </div>
-                <div
+                {/* <div
                   className="items exterior-one-slide-four"
                   // style="background-image: url('./images/image1.jpg')"
                 >
@@ -102,10 +106,9 @@ const Exterior1 = () => {
                     </div>
                     <button>See More</button>
                   </div>
-                </div>
-                <div
+                </div> */}
+                {/* <div
                   className="items exterior-one-slide-five"
-                  // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
@@ -114,10 +117,9 @@ const Exterior1 = () => {
                     </div>
                     <button>See More</button>
                   </div>
-                </div>
-                <div
+                </div> */}
+                {/* <div
                   className="items exterior-one-slide-one"
-                  // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
@@ -126,7 +128,7 @@ const Exterior1 = () => {
                     </div>
                     <button>See More</button>
                   </div>
-                </div>
+                </div> */}
                 <div className="buttons">
                   <button id="prev" onClick={handleLeftNavigation}>
                     <i className="fa-solid fa-angle-left">

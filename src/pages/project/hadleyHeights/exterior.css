@@ -14,19 +14,39 @@
   background-image: url("../../../assets/images/image-carousel1.jpg");
 } */
 .exterior-one-slide-one {
-  background-image: url("../../../assets/images/hadley/exterior/1.jpg");
+  background-image: url("../../../assets/images/hadley/exterior-images/exterior1.jpg");
 }
 .exterior-one-slide-two {
-  background-image: url("../../../assets/images/hadley/exterior/2.jpg");
+  background-image: url("../../../assets/images/hadley/exterior-images/exterior2.jpg");
 }
 .exterior-one-slide-three {
-  background-image: url("../../../assets/images/hadley/exterior/3.jpg");
+  background-image: url("../../../assets/images/hadley/exterior-images/exterior3.jpg");
 }
 .exterior-one-slide-four {
-  background-image: url("../../../assets/images/hadley/exterior/4.jpg");
+  background-image: url("../../../assets/images/hadley/exterior-images/exterior4.jpg");
 }
 .exterior-one-slide-five {
-  background-image: url("../../../assets/images/hadley/exterior/5.jpg");
+  background-image: url("../../../assets/images/hadley/exterior-images/exterior5.jpg");
+}
+
+.exterior-one-slide-seven {
+  background-image: url("../../../assets/images/hadley/dusk/dusk.jpg");
+}
+
+.exterior-one-slide-eight {
+  background-image: url("../../../assets/images/hadley/entrance/entrance1.jpg");
+}
+
+.exterior-one-slide-nine {
+  background-image: url("../../../assets/images/hadley/entrance/entrance2.jpg");
+}
+
+.exterior-one-slide-ten {
+  background-image: url("../../../assets/images/hadley/facade/facade1.jpg");
+}
+
+.exterior-one-slide-eleven {
+  background-image: url("../../../assets/images/hadley/facade//facade2.jpg");
 }
 
 #slide {
@@ -42,7 +62,7 @@
   background-size: cover;
   position: absolute;
   z-index: 1;
-  top: 50%;
+  top: 75%;
   transform: translate(0, -50%);
   border-radius: 20px;
   box-shadow: 0 30px 50px #505050;
@@ -59,13 +79,13 @@
   box-shadow: none;
 }
 .items:nth-child(3) {
-  left: 50%;
+  left: 65%;
 }
 .items:nth-child(4) {
-  left: calc(50% + 220px);
+  left: calc(50% + 460px);
 }
 .items:nth-child(5) {
-  left: calc(50% + 440px);
+  left: calc(50% + 680px);
 }
 .items:nth-child(n + 6) {
   left: calc(50% + 660px);

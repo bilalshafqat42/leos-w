@@ -20,7 +20,7 @@ export const bottomNavigationdatas = [
   },
   {
     title: "Intro Video",
-    imageURL: "../../assets/images/intro-video.jpg",
+    imageURL: "../../assets/images/intro-light-image.jpg",
   },
   // {
   //   title: "Number 5",

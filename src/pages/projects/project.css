@@ -1,9 +1,16 @@
-.project-section {
+/* .project-section {
   background-image: url("../../assets/images/balcony.jpg"),
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
-  /* background-image: url("./assets/images/mainheader.jpg"), */
+   background-image: url("./assets/images/mainheader.jpg"),
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+} */
+.project-section {
+  height: 100vh;
+}
+.projects-banner-images {
+  width: 1920px;
+  height: 621px;
 }
