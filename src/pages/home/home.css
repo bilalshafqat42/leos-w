@@ -1,9 +1,21 @@
 .main-page-banner {
-  background-image: url("../../assets/images/mainheader.jpg"),
-    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+  /* background-image: url("../../assets/images/mainheader.jpg"), */
+  /* linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)); */
   /* background-image: url("./assets/images/mainheader.jpg"), */
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+.main-mini-heading-sections {
+  background-color: #232323;
+  color: #fff;
+  margin-left: -20px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: -100px;
+  padding-right: 130px;
+  overflow-x: hidden;
 }

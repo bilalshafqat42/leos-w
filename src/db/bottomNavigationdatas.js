@@ -11,25 +11,25 @@ export const bottomNavigationdatas = [
     imageURL: "../../assets/images/image-carousel1.jpg",
   },
   {
-    title: "Interior Video",
-    imageURL: "../../assets/images/image-carousel2.jpg",
-  },
-  {
     title: "Experience Centre",
-    imageURL: "../../assets/images/image-carousel3.jpg",
+    imageURL: "../../assets/images/experience-center.jpg",
   },
   {
-    title: "Number 4",
-    imageURL: "../../assets/images/image-carousel4.jpg",
+    title: "Show Apartment",
+    imageURL: "../../assets/images/show-apartment.jpg",
   },
   {
-    title: "Number 5",
-    imageURL: "../../assets/images/image-carousel5.jpg",
+    title: "Intro Video",
+    imageURL: "../../assets/images/intro-video.jpg",
   },
-  {
-    title: "Number 6",
-    imageURL: "../../assets/images/image-carousel6.jpg",
-  },
+  // {
+  //   title: "Number 5",
+  //   imageURL: "../../assets/images/image-carousel5.jpg",
+  // },
+  // {
+  //   title: "Number 6",
+  //   imageURL: "../../assets/images/image-carousel6.jpg",
+  // },
 ];
 
 // export default [image1, image2, image3, image4, image5, image6];
