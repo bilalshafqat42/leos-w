@@ -419,7 +419,7 @@ const Amenities = () => {
             </Link>
           </div>
           <div className="navigation-content">
-            <Link to={"/"}>
+            <Link to={"/projects/hadley-heights/amenities"}>
               <FontAwesomeIcon
                 icon={faHeart}
                 className="icons-section-bottom-navigation"
@@ -429,7 +429,7 @@ const Amenities = () => {
             </Link>
           </div>
           <div className="navigation-content">
-            <Link to={"/"}>
+            <Link to={"/projects/hadley-heights/units"}>
               <FontAwesomeIcon
                 icon={faWindowRestore}
                 className="icons-section-bottom-navigation"

@@ -10,6 +10,18 @@
   box-shadow: 0 30px 50px #dbdbdb;
   overflow-x: hidden;
 }
+.containings {
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  width: 1380px;
+  height: 700px;
+  padding: 50px;
+  background-color: #f5f5f5;
+  box-shadow: 0 30px 50px #dbdbdb;
+  overflow-x: hidden;
+}
 /* .exterior-one-slide-one {
   background-image: url("../../../assets/images/image-carousel1.jpg");
 } */
@@ -117,6 +129,39 @@
 }
 .exterior-one-slide-thirty-four {
   background-image: url("../../../assets/images/hadley/amenities/23.jpg");
+}
+.exterior-one-slide-floor-one {
+  background-image: url("../../../assets/images/hadley/floors/unit22.png");
+}
+.exterior-one-slide-one-unit-1 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit01.jpg");
+}
+.exterior-one-slide-one-unit-2 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit02.jpg");
+}
+.exterior-one-slide-one-unit-3 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit03.jpg");
+}
+.exterior-one-slide-one-unit-4 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit04.jpg");
+}
+.exterior-one-slide-one-unit-5 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit05.jpg");
+}
+.exterior-one-slide-one-unit-6 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit06.jpg");
+}
+.exterior-one-slide-one-unit-7 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit07.jpg");
+}
+.exterior-one-slide-one-unit-8 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit08.jpg");
+}
+.exterior-one-slide-one-unit-9 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit09.jpg");
+}
+.exterior-one-slide-one-unit-10 {
+  background-image: url("../../../assets/images/hadley/floor-plans/Unit10.jpg");
 }
 /* amenities images ends here  */
 #slide {
@@ -244,4 +289,16 @@ h1.page-heading-title {
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+.units-boxes-design {
+  background-color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+
+.units-boxes-design a {
+  padding: 10px 15px !important;
+}
+.units-buttons-design {
+  margin-bottom: 2px !important;
 }

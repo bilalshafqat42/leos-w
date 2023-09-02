@@ -1,8 +1,8 @@
 import React from "react";
-import "../projectPage.css";
+import "../../projectPage.css";
 // import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
-import "./hadleyHeights.css";
-import "./exterior.css";
+import "../hadleyHeights.css";
+import "../exterior.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -13,18 +13,17 @@ import {
   faHeart,
   faLocationDot,
   faPersonShelter,
-  faSun,
-  faDungeon,
-  faStore,
   faTableCellsLarge,
   faArrowRight,
   faArrowLeft,
+  faPuzzlePiece,
+  faVectorSquare,
 } from "@fortawesome/free-solid-svg-icons";
-import Logo from "../../../assets/images/logo.png";
+import Logo from "../../../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
 
-const HadleyHeights = () => {
+const Units = () => {
   const handleRightNavigation = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").appendChild(lists[0]);
@@ -67,7 +66,7 @@ const HadleyHeights = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <div className="containing">
+            <div className="containings">
               <div id="slide">
                 <div
                   className="items exterior-one-slide-one"
@@ -168,74 +167,38 @@ const HadleyHeights = () => {
       <div className="left-navigation-menu">
         <div className="mini-navigation-bar-left">
           <Link
-            to={"/projects/hadley-heights/exterior1"}
+            to={"/projects/hadley-heights/floors"}
             className="d-flex flex-direction-row text-center align-items-center"
           >
             <FontAwesomeIcon
               icon={faPersonShelter}
               className="icons-section-bottom-navigation"
             />
-            <h4 className="bottom-navigation-itemss">Exterior 1</h4>
+            <h4 className="bottom-navigation-itemss">Floors</h4>
           </Link>
         </div>
         <div className="mini-navigation-bar-left">
           <Link
-            to={"/projects/hadley-heights/exterior2"}
+            to={"/projects/hadley-heights/units"}
             className="d-flex flex-direction-row text-center align-items-center"
           >
             <FontAwesomeIcon
-              icon={faPersonShelter}
+              icon={faPuzzlePiece}
               className="icons-section-bottom-navigation"
             />
-            <h4 className="bottom-navigation-itemss">Exterior 2</h4>
+            <h4 className="bottom-navigation-itemss">Units</h4>
           </Link>
         </div>
         <div className="mini-navigation-bar-left">
           <Link
-            to={"/projects/hadley-heights/dusk"}
+            to={"/projects/hadley-heights/floorplans"}
             className="d-flex flex-direction-row text-center align-items-center"
           >
             <FontAwesomeIcon
-              icon={faSun}
+              icon={faVectorSquare}
               className="icons-section-bottom-navigation"
             />
-            <h4 className="bottom-navigation-itemss">Dusk</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/entrance"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faDungeon}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Entrance</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/facade"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faStore}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Facade</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/balcony"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faTableCellsLarge}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Balcony</h4>
+            <h4 className="bottom-navigation-itemss">Floor Plans</h4>
           </Link>
         </div>
       </div>
@@ -278,7 +241,7 @@ const HadleyHeights = () => {
                 className="icons-section-bottom-navigation"
               />
               <br />
-              <h4 className="bottom-navigation-item">Units</h4>
+              <h4 className="bottom-navigation-item">Units & Floor</h4>
             </Link>
           </div>
           <div className="navigation-content">
@@ -303,8 +266,150 @@ const HadleyHeights = () => {
           </div>
         </div>
       </div>
+      <div className="right-navigation-menu">
+        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+        </div>
+        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+        </div>
+        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+        </div>
+        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+        </div>
+        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+          <span className="units-boxes-design">
+            <Link
+              to={"/projects/hadley-heights/exterior1"}
+              className="d-flex flex-column text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faTableCellsLarge}
+                className="icons-section-bottom-navigation mt-2 mb-0"
+              />
+              <br />
+              <h4 className="bottom-navigation-itemss mt-0 mb-3">Unit 101</h4>
+            </Link>
+          </span>
+        </div>
+      </div>
     </section>
   );
 };
 
-export default HadleyHeights;
+export default Units;
