@@ -163,6 +163,27 @@
 .exterior-one-slide-one-unit-10 {
   background-image: url("../../../assets/images/hadley/floor-plans/Unit10.jpg");
 }
+.exterior-one-slide-one-unit-3d-1 {
+  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+}
+.exterior-one-slide-one-unit-3d-2 {
+  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+}
+.exterior-one-slide-one-unit-3d-3 {
+  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+}
+.exterior-one-slide-one-unit-3d-4 {
+  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+}
+.exterior-one-slide-one-unit-3d-5 {
+  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+}
+.exterior-one-slide-one-unit-3d-6 {
+  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+}
+.exterior-one-slide-one-unit-3d-7 {
+  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+}
 /* amenities images ends here  */
 #slide {
   width: max-content;
@@ -301,4 +322,16 @@ h1.page-heading-title {
 }
 .units-buttons-design {
   margin-bottom: 2px !important;
+}
+#slides .no-thumbs {
+  /* display: none; */
+}
+.floor-plans-banners .content {
+  padding: 40px;
+  background-color: #232323;
+  min-width: 400px;
+}
+.floor-plans-banners .items button {
+  background-color: #c4a564;
+  color: #fff;
 }

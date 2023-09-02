@@ -22,7 +22,7 @@ import Logo from "../../../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
 
-const FloorPlans = () => {
+const FloorPlan5 = () => {
   const handleRightNavigation = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").appendChild(lists[0]);
@@ -67,7 +67,7 @@ const FloorPlans = () => {
           <div className="col">
             <div className="containings">
               <div id="slide" className="no-thumbs floor-plans-banners">
-                <div className="items exterior-one-slide-one-unit-1  floorplans-thumb">
+                <div className="items exterior-one-slide-one-unit-5  floorplans-thumb">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -482,4 +482,4 @@ const FloorPlans = () => {
   );
 };
 
-export default FloorPlans;
+export default FloorPlan5;
