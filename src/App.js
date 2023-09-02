@@ -8,6 +8,7 @@ import Dusk from "./pages/project/hadleyHeights/Dusk";
 import Entrance from "./pages/project/hadleyHeights/Entrance";
 import Facade from "./pages/project/hadleyHeights/Facade";
 import Location from "./pages/project/hadleyHeights/Location";
+import Amenities from "./pages/project/hadleyHeights/Amenities";
 import WeybridgeGardens from "./pages/project/weybridgeGardens/WeybridgeGardens";
 import HadleyHeights2 from "./pages/project/hadleyHeights2/HadleyHeights2";
 import Balcony from "./pages/project/hadleyHeights/Balcony";
@@ -31,6 +32,10 @@ function App() {
       <Route path="/projects/hadley-heights/facade" element={<Facade />} />
       <Route path="/projects/hadley-heights/balcony" element={<Balcony />} />
       <Route path="/projects/hadley-heights/location" element={<Location />} />
+      <Route
+        path="/projects/hadley-heights/amenities"
+        element={<Amenities />}
+      />
       <Route
         path="/projects/weybridge-gardens"
         element={<WeybridgeGardens />}

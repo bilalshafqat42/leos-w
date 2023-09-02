@@ -23,7 +23,7 @@ import Logo from "../../../assets/images/logo.png";
 import "./exterior.css";
 // import "./slide-animation";
 
-const Balcony = () => {
+const Amenities = () => {
   const handleRightNavigation = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").appendChild(lists[0]);
@@ -38,8 +38,8 @@ const Balcony = () => {
         <div className="row">
           <div className="col">
             <div className="main-mini-heading-section">
-              <Link to="/">
-                <h1 className="mt-4 mb-2 page-heading-title">Balcony Page</h1>
+              <Link to={"/"}>
+                <h1 className="mt-4 mb-2 page-heading-title">Entrance Page</h1>
               </Link>
               <Link to="/">
                 <img
@@ -60,7 +60,7 @@ const Balcony = () => {
             <div className="containing">
               <div id="slide">
                 <div
-                  className="items exterior-one-slide-one"
+                  className="items exterior-one-slide-twelve"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -72,7 +72,7 @@ const Balcony = () => {
                   </div>
                 </div>
                 <div
-                  className="items exterior-one-slide-two"
+                  className="items exterior-one-slide-thirteen"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -84,7 +84,7 @@ const Balcony = () => {
                   </div>
                 </div>
                 <div
-                  className="items exterior-one-slide-three"
+                  className="items exterior-one-slide-fourteen"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -96,7 +96,7 @@ const Balcony = () => {
                   </div>
                 </div>
                 <div
-                  className="items exterior-one-slide-four"
+                  className="items exterior-one-slide-fifteen"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -108,7 +108,7 @@ const Balcony = () => {
                   </div>
                 </div>
                 <div
-                  className="items exterior-one-slide-five"
+                  className="items exterior-one-slide-sixteen"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -120,7 +120,175 @@ const Balcony = () => {
                   </div>
                 </div>
                 <div
-                  className="items exterior-one-slide-one"
+                  className="items exterior-one-slide-seventeen"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-eighteen"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-ninteen"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-one"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-two"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-three"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-four"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-five"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-six"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-seven"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-eight"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-twenty-nine"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-thirty"
+                  // style="background-image: url('./images/image1.jpg')"
+                >
+                  <div className="content">
+                    <div className="name">Lorem Ipsum</div>
+                    <div className="des">
+                      description lorem ipsum sedts at dummy text written here.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div
+                  className="items exterior-one-slide-thirty-one"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -251,7 +419,7 @@ const Balcony = () => {
             </Link>
           </div>
           <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/amenities"}>
+            <Link to={"/"}>
               <FontAwesomeIcon
                 icon={faHeart}
                 className="icons-section-bottom-navigation"
@@ -296,4 +464,4 @@ const Balcony = () => {
   );
 };
 
-export default Balcony;
+export default Amenities;

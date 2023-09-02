@@ -249,7 +249,7 @@ const Exterior1 = () => {
             </Link>
           </div>
           <div className="navigation-content">
-            <Link to={"/"}>
+            <Link to={"/projects/hadley-heights/amenities"}>
               <FontAwesomeIcon
                 icon={faHeart}
                 className="icons-section-bottom-navigation"

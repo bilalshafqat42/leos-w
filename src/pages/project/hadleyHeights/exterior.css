@@ -46,9 +46,79 @@
 }
 
 .exterior-one-slide-eleven {
-  background-image: url("../../../assets/images/hadley/facade//facade2.jpg");
+  background-image: url("../../../assets/images/hadley/facade/facade2.jpg");
 }
-
+/* amenities images started here  */
+.exterior-one-slide-twelve {
+  background-image: url("../../../assets/images/hadley/amenities/1.jpg");
+}
+.exterior-one-slide-thirteen {
+  background-image: url("../../../assets/images/hadley/amenities/2.jpg");
+}
+.exterior-one-slide-fourteen {
+  background-image: url("../../../assets/images/hadley/amenities/3.jpg");
+}
+.exterior-one-slide-fifteen {
+  background-image: url("../../../assets/images/hadley/amenities/4.jpg");
+}
+.exterior-one-slide-sixteen {
+  background-image: url("../../../assets/images/hadley/amenities/5.jpg");
+}
+.exterior-one-slide-seventeen {
+  background-image: url("../../../assets/images/hadley/amenities/6.jpg");
+}
+.exterior-one-slide-eighteen {
+  background-image: url("../../../assets/images/hadley/amenities/7.jpg");
+}
+.exterior-one-slide-ninteen {
+  background-image: url("../../../assets/images/hadley/amenities/8.jpg");
+}
+.exterior-one-slide-twenty {
+  background-image: url("../../../assets/images/hadley/amenities/9.jpg");
+}
+.exterior-one-slide-twenty-one {
+  background-image: url("../../../assets/images/hadley/amenities/10.jpg");
+}
+.exterior-one-slide-twenty-two {
+  background-image: url("../../../assets/images/hadley/amenities/11.jpg");
+}
+.exterior-one-slide-twenty-three {
+  background-image: url("../../../assets/images/hadley/amenities/12.jpg");
+}
+.exterior-one-slide-twenty-four {
+  background-image: url("../../../assets/images/hadley/amenities/13.jpg");
+}
+.exterior-one-slide-twenty-five {
+  background-image: url("../../../assets/images/hadley/amenities/14.jpg");
+}
+.exterior-one-slide-twenty-six {
+  background-image: url("../../../assets/images/hadley/amenities/15.jpg");
+}
+.exterior-one-slide-twenty-seven {
+  background-image: url("../../../assets/images/hadley/amenities/16.jpg");
+}
+.exterior-one-slide-twenty-eight {
+  background-image: url("../../../assets/images/hadley/amenities/17.jpg");
+}
+.exterior-one-slide-twenty-nine {
+  background-image: url("../../../assets/images/hadley/amenities/18.jpg");
+}
+.exterior-one-slide-thirty {
+  background-image: url("../../../assets/images/hadley/amenities/19.jpg");
+}
+.exterior-one-slide-thirty-one {
+  background-image: url("../../../assets/images/hadley/amenities/20.jpg");
+}
+.exterior-one-slide-thirty-two {
+  background-image: url("../../../assets/images/hadley/amenities/21.jpg");
+}
+.exterior-one-slide-thirty-three {
+  background-image: url("../../../assets/images/hadley/amenities/22.jpg");
+}
+.exterior-one-slide-thirty-four {
+  background-image: url("../../../assets/images/hadley/amenities/23.jpg");
+}
+/* amenities images ends here  */
 #slide {
   width: max-content;
   margin-top: 50px;
