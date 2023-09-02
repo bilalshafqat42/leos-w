@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import { projectsNavigations } from "../../db/projectsNavigation";
 // import { bottomNavigationdatas } from "../../db/bottomNavigationdatas";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./projectNavigation.css";
 

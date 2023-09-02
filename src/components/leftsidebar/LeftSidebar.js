@@ -1,27 +1,28 @@
 import React from "react";
 import "./leftSidebar.css";
+import { Link } from "react-router-dom";
 
 const LeftSidebar = () => {
   return (
     <div className="left-sidebar-design">
       <ul className="left-sidebar-navigation">
         <li>
-          <a href="">Exterior 1</a>
+          <Link to="/">Exterior 1</Link>
         </li>
         <li>
-          <a href="">Exterior 2</a>
+          <Link to="/">Exterior 2 </Link>
         </li>
         <li>
-          <a href="">Dusk</a>
+          <Link to="/">Dusk </Link>
         </li>
         <li>
-          <a href="">Entrance</a>
+          <Link to="/">Entrance </Link>
         </li>
         <li>
-          <a href="">Facade</a>
+          <Link to="/">Facade </Link>
         </li>
         <li>
-          <a href="">Balcony</a>
+          <Link to="/">Balcony </Link>
         </li>
       </ul>
     </div>

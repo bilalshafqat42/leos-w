@@ -252,7 +252,7 @@ const HadleyHeights = () => {
             </Link>
           </div>
           <div className="navigation-content">
-            <Link to={"/"}>
+            <Link to={"/projects/hadley-heights/location"}>
               <FontAwesomeIcon
                 icon={faLocationDot}
                 className="icons-section-bottom-navigation"
