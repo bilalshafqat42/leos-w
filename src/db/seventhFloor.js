@@ -1,52 +1,52 @@
 export const seventhFloors = [
   {
-    unitNumber: "501",
+    unitNumber: "701",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "502",
+    unitNumber: "702",
     unitType: "Studio",
-    status: null,
-  },
-  {
-    unitNumber: "503",
-    unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "504",
+    unitNumber: "703",
+    unitType: "1 Br",
+    status: true,
+  },
+  {
+    unitNumber: "704",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "505",
+    unitNumber: "705",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "506",
+    unitNumber: "706",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "507",
+    unitNumber: "707",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "508",
-    unitType: "1 Br",
-    status: false,
-  },
-  {
-    unitNumber: "509",
-    unitType: "1 Br",
-    status: false,
-  },
-  {
-    unitNumber: "510",
+    unitNumber: "708",
     unitType: "1 Br",
     status: true,
+  },
+  {
+    unitNumber: "709",
+    unitType: "1 Br",
+    status: true,
+  },
+  {
+    unitNumber: "710",
+    unitType: "1 Br",
+    status: false,
   },
 ];

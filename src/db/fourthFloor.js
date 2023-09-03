@@ -2,12 +2,12 @@ export const fourthFloors = [
   {
     unitNumber: "401",
     unitType: "1 Br",
-    status: true,
+    status: false,
   },
   {
     unitNumber: "402",
     unitType: "Studio",
-    status: null,
+    status: false,
   },
   {
     unitNumber: "403",
@@ -17,7 +17,7 @@ export const fourthFloors = [
   {
     unitNumber: "404",
     unitType: "2 Br",
-    status: true,
+    status: false,
   },
   {
     unitNumber: "405",
@@ -47,6 +47,6 @@ export const fourthFloors = [
   {
     unitNumber: "410",
     unitType: "1 Br",
-    status: true,
+    status: false,
   },
 ];

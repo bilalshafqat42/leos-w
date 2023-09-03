@@ -16,6 +16,7 @@ import {
   faArrowRight,
   faArrowLeft,
   faBed,
+  faBuilding,
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../../../../assets/images/logo.png";
 
@@ -458,10 +459,10 @@ const Floor8 = () => {
               className="d-flex flex-direction-row text-center align-items-center"
             >
               <FontAwesomeIcon
-                icon={faPersonShelter}
+                icon={faBuilding}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">Floor 23</h4>
+              <h4 className="bottom-navigation-itemss">Building</h4>
             </Link>
           </div>
         </div>

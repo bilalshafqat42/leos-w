@@ -1,52 +1,52 @@
 export const eleventhFloors = [
   {
-    unitNumber: "501",
+    unitNumber: "1101",
     unitType: "1 Br",
-    status: true,
+    status: false,
   },
   {
-    unitNumber: "502",
+    unitNumber: "1102",
     unitType: "Studio",
-    status: null,
+    status: false,
   },
   {
-    unitNumber: "503",
+    unitNumber: "1103",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "504",
+    unitNumber: "1104",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "505",
+    unitNumber: "1105",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "506",
+    unitNumber: "1106",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "507",
+    unitNumber: "1107",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "508",
+    unitNumber: "1108",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "509",
+    unitNumber: "1109",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "510",
+    unitNumber: "1110",
     unitType: "1 Br",
-    status: true,
+    status: false,
   },
 ];

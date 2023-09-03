@@ -1,52 +1,52 @@
 export const tenthFloors = [
   {
-    unitNumber: "501",
+    unitNumber: "1001",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "502",
+    unitNumber: "1002",
     unitType: "Studio",
-    status: null,
+    status: false,
   },
   {
-    unitNumber: "503",
+    unitNumber: "1003",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "504",
+    unitNumber: "1004",
+    unitType: "2 Br",
+    status: false,
+  },
+  {
+    unitNumber: "1005",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "505",
+    unitNumber: "1006",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "506",
-    unitType: "2 Br",
-    status: true,
-  },
-  {
-    unitNumber: "507",
+    unitNumber: "1007",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "508",
+    unitNumber: "1008",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "509",
+    unitNumber: "1009",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "510",
+    unitNumber: "1010",
     unitType: "1 Br",
-    status: true,
+    status: false,
   },
 ];

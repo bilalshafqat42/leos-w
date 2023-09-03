@@ -1,51 +1,51 @@
 export const fourteenFloors = [
   {
-    unitNumber: "501",
+    unitNumber: "1401",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "502",
+    unitNumber: "1402",
     unitType: "Studio",
-    status: null,
+    status: false,
   },
   {
-    unitNumber: "503",
+    unitNumber: "1403",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "504",
+    unitNumber: "1404",
+    unitType: "2 Br",
+    status: false,
+  },
+  {
+    unitNumber: "1405",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "505",
+    unitNumber: "1406",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "506",
-    unitType: "2 Br",
-    status: true,
-  },
-  {
-    unitNumber: "507",
-    unitType: "1 Br",
-    status: true,
-  },
-  {
-    unitNumber: "508",
+    unitNumber: "1407",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "509",
+    unitNumber: "1408",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "510",
+    unitNumber: "1409",
+    unitType: "1 Br",
+    status: false,
+  },
+  {
+    unitNumber: "1410",
     unitType: "1 Br",
     status: true,
   },

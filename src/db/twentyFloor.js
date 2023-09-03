@@ -1,51 +1,51 @@
 export const twentyFloors = [
   {
-    unitNumber: "501",
+    unitNumber: "2001",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "502",
+    unitNumber: "2002",
     unitType: "Studio",
-    status: null,
+    status: false,
   },
   {
-    unitNumber: "503",
+    unitNumber: "2003",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "504",
+    unitNumber: "2004",
+    unitType: "2 Br",
+    status: false,
+  },
+  {
+    unitNumber: "2005",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "505",
+    unitNumber: "2006",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "506",
-    unitType: "2 Br",
-    status: true,
-  },
-  {
-    unitNumber: "507",
-    unitType: "1 Br",
-    status: true,
-  },
-  {
-    unitNumber: "508",
+    unitNumber: "2007",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "509",
+    unitNumber: "2008",
     unitType: "1 Br",
-    status: false,
+    status: true,
   },
   {
-    unitNumber: "510",
+    unitNumber: "2009",
+    unitType: "1 Br",
+    status: true,
+  },
+  {
+    unitNumber: "2010",
     unitType: "1 Br",
     status: true,
   },

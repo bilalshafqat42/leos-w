@@ -1,51 +1,51 @@
 export const thirteenFloors = [
   {
-    unitNumber: "501",
+    unitNumber: "1301",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "502",
+    unitNumber: "1302",
     unitType: "Studio",
-    status: null,
+    status: false,
   },
   {
-    unitNumber: "503",
+    unitNumber: "1303",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "504",
+    unitNumber: "1304",
+    unitType: "2 Br",
+    status: false,
+  },
+  {
+    unitNumber: "1305",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "505",
+    unitNumber: "1306",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "506",
-    unitType: "2 Br",
-    status: true,
-  },
-  {
-    unitNumber: "507",
-    unitType: "1 Br",
-    status: true,
-  },
-  {
-    unitNumber: "508",
+    unitNumber: "1307",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "509",
+    unitNumber: "1308",
     unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "510",
+    unitNumber: "1309",
+    unitType: "1 Br",
+    status: true,
+  },
+  {
+    unitNumber: "1310",
     unitType: "1 Br",
     status: true,
   },

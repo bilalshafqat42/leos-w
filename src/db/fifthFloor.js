@@ -2,12 +2,12 @@ export const fifthFloors = [
   {
     unitNumber: "501",
     unitType: "1 Br",
-    status: true,
+    status: false,
   },
   {
     unitNumber: "502",
     unitType: "Studio",
-    status: null,
+    status: false,
   },
   {
     unitNumber: "503",
@@ -17,7 +17,7 @@ export const fifthFloors = [
   {
     unitNumber: "504",
     unitType: "2 Br",
-    status: true,
+    status: false,
   },
   {
     unitNumber: "505",
@@ -47,6 +47,6 @@ export const fifthFloors = [
   {
     unitNumber: "510",
     unitType: "1 Br",
-    status: true,
+    status: false,
   },
 ];

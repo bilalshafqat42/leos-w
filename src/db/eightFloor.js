@@ -1,52 +1,52 @@
 export const eighthFloors = [
   {
-    unitNumber: "501",
+    unitNumber: "801",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "502",
+    unitNumber: "802",
     unitType: "Studio",
-    status: null,
-  },
-  {
-    unitNumber: "503",
-    unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "504",
+    unitNumber: "803",
+    unitType: "1 Br",
+    status: true,
+  },
+  {
+    unitNumber: "804",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "505",
+    unitNumber: "805",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "506",
+    unitNumber: "806",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "507",
+    unitNumber: "807",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "508",
-    unitType: "1 Br",
-    status: false,
-  },
-  {
-    unitNumber: "509",
-    unitType: "1 Br",
-    status: false,
-  },
-  {
-    unitNumber: "510",
+    unitNumber: "808",
     unitType: "1 Br",
     status: true,
+  },
+  {
+    unitNumber: "809",
+    unitType: "1 Br",
+    status: true,
+  },
+  {
+    unitNumber: "810",
+    unitType: "1 Br",
+    status: false,
   },
 ];

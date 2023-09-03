@@ -1,51 +1,51 @@
 export const fifteenFloors = [
   {
-    unitNumber: "501",
+    unitNumber: "1501",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "502",
+    unitNumber: "1502",
     unitType: "Studio",
-    status: null,
-  },
-  {
-    unitNumber: "503",
-    unitType: "1 Br",
     status: false,
   },
   {
-    unitNumber: "504",
+    unitNumber: "1503",
+    unitType: "1 Br",
+    status: true,
+  },
+  {
+    unitNumber: "1504",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "505",
+    unitNumber: "1505",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "506",
+    unitNumber: "1506",
     unitType: "2 Br",
     status: true,
   },
   {
-    unitNumber: "507",
+    unitNumber: "1507",
     unitType: "1 Br",
     status: true,
   },
   {
-    unitNumber: "508",
+    unitNumber: "1508",
     unitType: "1 Br",
-    status: false,
+    status: true,
   },
   {
-    unitNumber: "509",
+    unitNumber: "1509",
     unitType: "1 Br",
-    status: false,
+    status: true,
   },
   {
-    unitNumber: "510",
+    unitNumber: "1510",
     unitType: "1 Br",
     status: true,
   },

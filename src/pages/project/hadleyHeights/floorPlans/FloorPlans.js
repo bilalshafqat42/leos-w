@@ -17,6 +17,7 @@ import {
   faArrowLeft,
   faPuzzlePiece,
   faVectorSquare,
+  faBed,
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../../../../assets/images/logo.png";
 
@@ -220,10 +221,10 @@ const FloorPlans = () => {
               className="d-flex flex-direction-row text-center align-items-center"
             >
               <FontAwesomeIcon
-                icon={faPersonShelter}
+                icon={faBed}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">Floor 1</h4>
+              <h4 className="bottom-navigation-itemss">1 Bedroom</h4>
             </Link>
           </div>
           <div className="mini-navigation-bar-left">
@@ -235,7 +236,7 @@ const FloorPlans = () => {
                 icon={faPersonShelter}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">Floor 2</h4>
+              <h4 className="bottom-navigation-itemss">2 Bedroom</h4>
             </Link>
           </div>
           <div className="mini-navigation-bar-left">
@@ -247,7 +248,7 @@ const FloorPlans = () => {
                 icon={faPersonShelter}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">Floor 3</h4>
+              <h4 className="bottom-navigation-itemss">2 Br + Gym</h4>
             </Link>
           </div>
           <div className="mini-navigation-bar-left">
@@ -259,7 +260,7 @@ const FloorPlans = () => {
                 icon={faPersonShelter}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">Floor 4</h4>
+              <h4 className="bottom-navigation-itemss">Studio</h4>
             </Link>
           </div>
           <div className="mini-navigation-bar-left">

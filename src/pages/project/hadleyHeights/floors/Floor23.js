@@ -454,7 +454,7 @@ const Floor23 = () => {
           </div>
           <div className="mini-navigation-bar-left">
             <Link
-              to={"/projects/hadley-heights/floors-22"}
+              to={"/projects/hadley-heights/floors-23"}
               className="d-flex flex-direction-row text-center align-items-center"
             >
               <FontAwesomeIcon
