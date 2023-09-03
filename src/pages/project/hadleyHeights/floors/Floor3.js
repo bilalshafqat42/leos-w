@@ -3,6 +3,8 @@ import "../../projectPage.css";
 import "../hadleyHeights.css";
 import "../exterior.css";
 
+import { thirdFloors } from "../../../../db/threeFloor";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHouse,
@@ -14,14 +16,13 @@ import {
   faPersonShelter,
   faArrowRight,
   faArrowLeft,
-  faPuzzlePiece,
-  faVectorSquare,
+  faBed,
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../../../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
 
-const FloorPlan3 = () => {
+const Floor3 = () => {
   const handleRightNavigation = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").appendChild(lists[0]);
@@ -30,6 +31,7 @@ const FloorPlan3 = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").prepend(lists[lists.length - 1]);
   };
+
   return (
     <section className="">
       <div className="container-fluid">
@@ -59,7 +61,7 @@ const FloorPlan3 = () => {
           <div className="col">
             <div className="containings">
               <div id="slide">
-                <div className="items exterior-one-slide-one-unit-1">
+                <div className="items exterior-one-slide-floor-three">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -93,41 +95,31 @@ const FloorPlan3 = () => {
       </div>
       {/* <LeftSidebar /> */}
       <div className="left-navigation-menu">
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/floors"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faPersonShelter}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Floors</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/units"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faPuzzlePiece}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Units</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/floorplans"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faVectorSquare}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Floor Plans</h4>
-          </Link>
+        <div className="row gx-2 m-1">
+          {thirdFloors.map((thirdFloor, index) => (
+            <div key={index} className="col-6">
+              <div
+                className={`${
+                  thirdFloor.status == true
+                    ? "green-bg"
+                    : thirdFloor.status == null
+                    ? "white-bg"
+                    : "red-bg"
+                } w-100 px-2`}
+              >
+                <span className="units-boxes-design m-1 d-flex flex-column align-center justify-content-center py-3">
+                  <FontAwesomeIcon
+                    icon={faBed}
+                    className="icons-section-bottom-navigation mt-2 mb-0"
+                  />
+                  <h4 className="bottom-navigation-itemss pt-2 mb-3">
+                    {thirdFloor.unitNumber}
+                  </h4>
+                  <p className="small-text">{thirdFloor.unitType}</p>
+                </span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
       {}
@@ -479,4 +471,4 @@ const FloorPlan3 = () => {
   );
 };
 
-export default FloorPlan3;
+export default Floor3;

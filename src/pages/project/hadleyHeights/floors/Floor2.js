@@ -4,7 +4,7 @@ import "../../projectPage.css";
 import "../hadleyHeights.css";
 import "../exterior.css";
 
-import { useState } from "react";
+import { secondFloors } from "../../../../db/secondFloor";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -32,8 +32,6 @@ const Floor2 = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").prepend(lists[lists.length - 1]);
   };
-
-  const [listToggle, setListToggle] = useState(true);
 
   return (
     <section className="">
@@ -72,7 +70,7 @@ const Floor2 = () => {
             <div className="containings">
               <div id="slide">
                 <div
-                  className="items exterior-one-slide-floor-one"
+                  className="items exterior-one-slide-floor-two"
                   // style="background-image: url('./images/image1.jpg')"
                 >
                   <div className="content">
@@ -108,89 +106,31 @@ const Floor2 = () => {
       </div>
       {/* <LeftSidebar /> */}
       <div className="left-navigation-menu">
-        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">101</h4>
-              <p className="small-text">2 Br</p>
-            </Link>
-          </span>
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">102</h4>
-              <p className="small-text">2 Br</p>
-            </Link>
-          </span>
-        </div>
-        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">103</h4>
-              <p className="small-text">2 Br</p>
-            </Link>
-          </span>
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">104</h4>
-              <p className="small-text">1 Br</p>
-            </Link>
-          </span>
-        </div>
-        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">105</h4>
-              <p className="small-text">1 Br</p>
-            </Link>
-          </span>
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">106</h4>
-              <p className="small-text">1 Br</p>
-            </Link>
-          </span>
+        <div className="row gx-2 m-1">
+          {secondFloors.map((secondFloor, index) => (
+            <div key={index} className="col-6">
+              <div
+                className={`${
+                  secondFloor.status == true
+                    ? "green-bg"
+                    : secondFloor.status == null
+                    ? "white-bg"
+                    : "red-bg"
+                } w-100 px-2`}
+              >
+                <span className="units-boxes-design m-1 d-flex flex-column align-center justify-content-center py-3">
+                  <FontAwesomeIcon
+                    icon={faBed}
+                    className="icons-section-bottom-navigation mt-2 mb-0"
+                  />
+                  <h4 className="bottom-navigation-itemss pt-2 mb-3">
+                    {secondFloor.unitNumber}
+                  </h4>
+                  <p className="small-text">{secondFloor.unitType}</p>
+                </span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
       <div className="bottom-navigations-bar">

@@ -4,7 +4,7 @@ import "../../projectPage.css";
 import "../hadleyHeights.css";
 import "../exterior.css";
 
-import { useState } from "react";
+import { firstFloors } from "../../../../db/firstFloor";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -15,7 +15,6 @@ import {
   faHeart,
   faLocationDot,
   faPersonShelter,
-  faTableCellsLarge,
   faArrowRight,
   faArrowLeft,
   faBed,
@@ -33,9 +32,6 @@ const Floor1 = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").prepend(lists[lists.length - 1]);
   };
-
-  const [listToggle, setListToggle] = useState(true);
-
   return (
     <section className="">
       <div className="container-fluid">
@@ -109,89 +105,31 @@ const Floor1 = () => {
       </div>
       {/* <LeftSidebar /> */}
       <div className="left-navigation-menu">
-        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">101</h4>
-              <p className="small-text">2 Br</p>
-            </Link>
-          </span>
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">102</h4>
-              <p className="small-text">2 Br</p>
-            </Link>
-          </span>
-        </div>
-        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">103</h4>
-              <p className="small-text">2 Br</p>
-            </Link>
-          </span>
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">104</h4>
-              <p className="small-text">1 Br</p>
-            </Link>
-          </span>
-        </div>
-        <div className="mini-navigation-bar-left units-buttons-design d-flex flex-row justify-content-between">
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">105</h4>
-              <p className="small-text">1 Br</p>
-            </Link>
-          </span>
-          <span className="units-boxes-design m-1">
-            <Link
-              to={"/projects/hadley-heights/exterior1"}
-              className="d-flex flex-column text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faBed}
-                className="icons-section-bottom-navigation mt-2 mb-0"
-              />
-              <h4 className="bottom-navigation-itemss pt-2 mb-3">106</h4>
-              <p className="small-text">1 Br</p>
-            </Link>
-          </span>
+        <div className="row gx-2 m-1">
+          {firstFloors.map((firstFloor, index) => (
+            <div key={index} className="col-6">
+              <div
+                className={`${
+                  firstFloor.status == true
+                    ? "green-bg"
+                    : firstFloor.status == null
+                    ? "white-bg"
+                    : "red-bg"
+                } w-100 px-2`}
+              >
+                <span className="units-boxes-design m-1 d-flex flex-column align-center justify-content-center py-3">
+                  <FontAwesomeIcon
+                    icon={faBed}
+                    className="icons-section-bottom-navigation mt-2 mb-0"
+                  />
+                  <h4 className="bottom-navigation-itemss pt-2 mb-3">
+                    {firstFloor.unitNumber}
+                  </h4>
+                  <p className="small-text">{firstFloor.unitType}</p>
+                </span>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
       <div className="bottom-navigations-bar">
