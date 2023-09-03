@@ -21,7 +21,7 @@ import Logo from "../../../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
 
-const FloorPlan7 = () => {
+const FloorPlan14 = () => {
   const handleRightNavigation = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").appendChild(lists[0]);
@@ -323,4 +323,4 @@ const FloorPlan7 = () => {
   );
 };
 
-export default FloorPlan7;
+export default FloorPlan14;

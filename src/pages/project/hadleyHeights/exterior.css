@@ -222,6 +222,7 @@
   height: 100%;
   min-height: 700px;
   box-shadow: none;
+  z-index: 9;
 }
 .items:nth-child(3) {
   left: 65%;
