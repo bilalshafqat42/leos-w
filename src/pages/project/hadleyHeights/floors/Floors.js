@@ -134,7 +134,7 @@ const Floors = () => {
             <h4 className="bottom-navigation-itemss">Units</h4>
           </Link>
         </div>
-        <div className="mini-navigation-bar-left">
+        {/* <div className="mini-navigation-bar-left">
           <Link
             to={"/projects/hadley-heights/floorplans"}
             className="d-flex flex-direction-row text-center align-items-center"
@@ -145,7 +145,7 @@ const Floors = () => {
             />
             <h4 className="bottom-navigation-itemss">Floor Plans</h4>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">

@@ -22,12 +22,12 @@ export const fourthFloors = [
   {
     unitNumber: "405",
     unitType: "2 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "406",
     unitType: "2 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "407",
@@ -47,6 +47,6 @@ export const fourthFloors = [
   {
     unitNumber: "410",
     unitType: "1 Br",
-    status: false,
+    status: null,
   },
 ];

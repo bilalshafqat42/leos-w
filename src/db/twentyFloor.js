@@ -2,7 +2,7 @@ export const twentyFloors = [
   {
     unitNumber: "2001",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "2002",
@@ -22,31 +22,31 @@ export const twentyFloors = [
   {
     unitNumber: "2005",
     unitType: "2 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "2006",
     unitType: "2 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "2007",
     unitType: "1 Br",
-    status: false,
+    status: null,
   },
   {
     unitNumber: "2008",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "2009",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "2010",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
 ];

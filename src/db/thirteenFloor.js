@@ -2,7 +2,7 @@ export const thirteenFloors = [
   {
     unitNumber: "1301",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "1302",
@@ -22,7 +22,7 @@ export const thirteenFloors = [
   {
     unitNumber: "1305",
     unitType: "2 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "1306",
@@ -42,11 +42,11 @@ export const thirteenFloors = [
   {
     unitNumber: "1309",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "1310",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
 ];
