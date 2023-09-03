@@ -12,6 +12,7 @@ import Amenities from "./pages/project/hadleyHeights/Amenities";
 import Units from "./pages/project/hadleyHeights/units/Units";
 
 import Floors from "./pages/project/hadleyHeights/floors/Floors";
+import Floor1 from "./pages/project/hadleyHeights/floors/Floor1";
 import Floor2 from "./pages/project/hadleyHeights/floors/Floor2";
 import Floor3 from "./pages/project/hadleyHeights/floors/Floor3";
 import Floor4 from "./pages/project/hadleyHeights/floors/Floor4";
@@ -70,7 +71,9 @@ function App() {
       <Route path="/projects/hadley-heights/balcony" element={<Balcony />} />
       <Route path="/projects/hadley-heights/location" element={<Location />} />
       <Route path="/projects/hadley-heights/units" element={<Units />} />
+
       <Route path="/projects/hadley-heights/floors" element={<Floors />} />
+      <Route path="/projects/hadley-heights/floors-1" element={<Floor1 />} />
       <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
       <Route path="/projects/hadley-heights/floors-3" element={<Floor3 />} />
       <Route path="/projects/hadley-heights/floors-4" element={<Floor4 />} />

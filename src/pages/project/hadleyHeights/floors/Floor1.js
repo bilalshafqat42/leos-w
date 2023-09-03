@@ -15,6 +15,7 @@ import {
   faHeart,
   faLocationDot,
   faPersonShelter,
+  faTableCellsLarge,
   faArrowRight,
   faArrowLeft,
   faBed,
@@ -23,7 +24,7 @@ import Logo from "../../../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
 
-const Floor2 = () => {
+const Floor1 = () => {
   const handleRightNavigation = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").appendChild(lists[0]);
@@ -541,4 +542,4 @@ const Floor2 = () => {
   );
 };
 
-export default Floor2;
+export default Floor1;

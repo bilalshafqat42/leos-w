@@ -55,6 +55,15 @@ h4.bottom-navigation-items {
 
 h4.bottom-navigation-itemss {
   margin: 0 !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #232323;
+}
+p.small-text {
+  margin: 0 !important;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
