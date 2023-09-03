@@ -21,6 +21,7 @@ import FloorPlan7 from "./pages/project/hadleyHeights/floorPlans/FloorPlan7";
 import FloorPlan8 from "./pages/project/hadleyHeights/floorPlans/FloorPlan8";
 import FloorPlan9 from "./pages/project/hadleyHeights/floorPlans/FloorPlan9";
 import FloorPlan10 from "./pages/project/hadleyHeights/floorPlans/FloorPlan10";
+import Floor2 from "./pages/project/hadleyHeights/floors/Floor2";
 import WeybridgeGardens from "./pages/project/weybridgeGardens/WeybridgeGardens";
 import HadleyHeights2 from "./pages/project/hadleyHeights2/HadleyHeights2";
 import Balcony from "./pages/project/hadleyHeights/Balcony";
@@ -46,6 +47,28 @@ function App() {
       <Route path="/projects/hadley-heights/location" element={<Location />} />
       <Route path="/projects/hadley-heights/units" element={<Units />} />
       <Route path="/projects/hadley-heights/floors" element={<Floors />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor3 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor4 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor5 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor6 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor7 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor8 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor9 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor10 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor11 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor12 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor13 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
+      <Route path="/projects/hadley-heights/floors-2" element={<Floor2 />} />
 
       <Route
         path="/projects/hadley-heights/floorplans"

@@ -131,7 +131,7 @@
   background-image: url("../../../assets/images/hadley/amenities/23.jpg");
 }
 .exterior-one-slide-floor-one {
-  background-image: url("../../../assets/images/hadley/floors/unit22.png");
+  background-image: url("../../../assets/images/hadley/floors/Floor1.jpg");
 }
 .exterior-one-slide-one-unit-1 {
   background-image: url("../../../assets/images/hadley/floor-plans/Unit01.jpg");
@@ -167,22 +167,31 @@
   background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
 }
 .exterior-one-slide-one-unit-3d-2 {
-  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+  background-image: url("../../../assets/images/hadley/3d/3-bed-with-movie-room.jpg");
 }
 .exterior-one-slide-one-unit-3d-3 {
-  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+  background-image: url("../../../assets/images/hadley/3d/Customisable-with-study-&-gym.jpg");
 }
 .exterior-one-slide-one-unit-3d-4 {
-  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+  background-image: url("../../../assets/images/hadley/3d/Gym.jpg");
 }
 .exterior-one-slide-one-unit-3d-5 {
-  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+  background-image: url("../../../assets/images/hadley/3d/Kidsplay.jpg");
 }
 .exterior-one-slide-one-unit-3d-6 {
-  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+  background-image: url("../../../assets/images/hadley/3d/Studio.jpg");
 }
 .exterior-one-slide-one-unit-3d-7 {
   background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+}
+.exterior-one-slide-one-unit-3d-7 {
+  background-image: url("../../../assets/images/hadley/3d/3-bed-with-movie-room.jpg");
+}
+.exterior-one-slide-one-unit-3d-7 {
+  background-image: url("../../../assets/images/hadley/3d/Customisable-with-study-&-gym.jpg");
+}
+.exterior-one-slide-one-unit-3d-7 {
+  background-image: url("../../../assets/images/hadley/3d/Studio.jpg");
 }
 /* amenities images ends here  */
 #slide {

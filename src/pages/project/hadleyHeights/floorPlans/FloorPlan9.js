@@ -76,7 +76,7 @@ const FloorPlan9 = () => {
                     <button>See More</button>
                   </div>
                 </div>
-                <div className="items exterior-one-slide-one-unit-3d-1 floorplans-thumb">
+                <div className="items exterior-one-slide-one-unit-3d-9 floorplans-thumb">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
