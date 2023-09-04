@@ -18,7 +18,7 @@ const Home = () => {
           <div className="col">
             <div className="main-mini-heading-sections">
               <h1 className="mt-4 mb-2 page-heading-title">
-                <Link to="/">LEO'S PROJECTS</Link>
+                <Link to="/">LEOS PROJECTS</Link>
               </h1>
               <Link to="/">
                 <img

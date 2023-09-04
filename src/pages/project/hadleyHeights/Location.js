@@ -71,60 +71,6 @@ const Location = () => {
                     <button>See More</button>
                   </div>
                 </div>
-                <div className="items exterior-one-slide-two">
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div className="items exterior-one-slide-three">
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-four"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-five"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
                 <div className="buttons">
                   <button id="prev" onClick={handleLeftNavigation}>
                     <i className="fa-solid fa-angle-left">

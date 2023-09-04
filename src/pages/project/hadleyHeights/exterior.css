@@ -22,9 +22,9 @@
   box-shadow: 0 30px 50px #dbdbdb;
   overflow-x: hidden;
 }
-/* .exterior-one-slide-one {
-  background-image: url("../../../assets/images/image-carousel1.jpg");
-} */
+.exterior-one-slide-one-map-location {
+  background-image: url("../../../assets/images/hadley-heights-map.jpg");
+}
 .exterior-one-slide-one {
   background-image: url("../../../assets/images/hadley/exterior-images/exterior1.jpg");
 }
