@@ -30,18 +30,10 @@ import { twentythreeFloors } from "../../../../db/twentythreeFloor";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faHouse,
-  faDoorOpen,
-  faShield,
-  faWindowRestore,
-  faHeart,
-  faLocationDot,
   faPersonShelter,
-  faTableCellsLarge,
   faArrowRight,
   faArrowLeft,
   faPuzzlePiece,
-  faVectorSquare,
   faBed,
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../../../../assets/images/logo.png";
@@ -82,86 +74,34 @@ const Units = () => {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-        <div className="row">
-          <div className="col">
-            <h1>ProjectPage</h1>
-          </div>
-        </div>
-      </div> */}
       <div className="container">
         <div className="row">
           <div className="col">
             <div className="containings">
               <div id="slide">
-                <div
-                  className="items exterior-one-slide-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-three">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">HADLEY HEIGHTS</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Your home in Jumeirah Village Circle (JVC)
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-two"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-one">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">MODERN ARCHITECTURE & DESIGN</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Designed and built to the highest quality specifications
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-three"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-two">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">PREMIUM QUALITY APARTMENTS</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-four"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-five"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Choose from studios, 1 & 2 bedroom apartments
                     </div>
                     <button>See More</button>
                   </div>
@@ -215,83 +155,7 @@ const Units = () => {
             <h4 className="bottom-navigation-itemss">Units</h4>
           </Link>
         </div>
-        {/* <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/floorplans"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faVectorSquare}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Floor Plans</h4>
-          </Link>
-        </div> */}
       </div>
-      {/* <div className="bottom-navigations-bar">
-        <div className="mini-navigation-bar">
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights"}>
-              <FontAwesomeIcon
-                icon={faHouse}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Home</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/location"}>
-              <FontAwesomeIcon
-                icon={faLocationDot}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Location</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/amenities"}>
-              <FontAwesomeIcon
-                icon={faHeart}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Amenities</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/units"}>
-              <FontAwesomeIcon
-                icon={faWindowRestore}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Units & Floor</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/"}>
-              <FontAwesomeIcon
-                icon={faShield}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Collaterals</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/"}>
-              <FontAwesomeIcon
-                icon={faDoorOpen}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Back</h4>
-            </Link>
-          </div>
-        </div>
-      </div> */}
       <ProjectBottomBar />
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">

@@ -39,7 +39,7 @@ const Project = () => {
               src={MainBannerImage}
               alt="main-banner-system"
               width={1800}
-              height={600}
+              height={650}
               className="projects-banner-images"
             />
           </div>
