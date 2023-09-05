@@ -1,30 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHouse,
-  faDoorOpen,
-  faShield,
-  faWindowRestore,
-  faHeart,
-  faLocationDot,
-  faPersonShelter,
-  faSun,
-  faDungeon,
-  faStore,
-  faTableCellsLarge,
-  faArrowRight,
-  faArrowLeft,
-} from "@fortawesome/free-solid-svg-icons";
-
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-
 import Logo from "../../../assets/images/logo.png";
-
-import "./exterior.css";
 import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
-import BottomNavigation from "../../../components/bottomNavigation/BottomNavigation";
 import ProjectBottomBar from "../../../components/projectBottomBar/ProjectBottomBar";
-// import "./slide-animation";
+import "./exterior.css";
 
 const Amenities = () => {
   const handleRightNavigation = () => {
@@ -62,246 +43,183 @@ const Amenities = () => {
           <div className="col">
             <div className="containing">
               <div id="slide">
-                <div
-                  className="items exterior-one-slide-twelve"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-nine">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">COMO LOUNGE CAFE</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Enjoy a selection of refreshments & light bites at our
+                      organic café.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-thirteen"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twelve">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">MAIN LOBBY </div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      A beautiful contemporary lobby welcomes you.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-fourteen"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-thirteen">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">LOBBY </div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Residents and guests can enjoy comfortable seating areas.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-fifteen"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-fourteen">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">CO-WORKING SPACE</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      The lobby features a co-working space for remote working
+                      professionals.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-sixteen"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-fifteen">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">LEOS CLUBHOUSE</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      The lobby features a co-working space for remote working
+                      professionals.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-seventeen"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-sixteen">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">A GYMNASIUM</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Residents will enjoy a fully-equipped gymnasium with the
+                      latest equipment.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-eighteen"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-seventeen">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">SWIMMING POOL</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Swim, sunbathe, relax and unwind at the community swimming
+                      pool.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-ninteen"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-eighteen">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">ZEN JAPANESE GARDEN</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Meditate, read, practice yoga and find your zen in the
+                      Japanese inspired garden.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-ninteen">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">OUTDOOR CINEMA</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Enjoy balmy evenings at our outdoor cinema with friends
+                      and family.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">VERTICAL FARM</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Grow your own organic produce and educate your little ones
+                      about sustainability.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-two"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-one">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">LEOS BOXING ACADEMY</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Perfect for boxing enthusiasts, adrenalin junkies and
+                      fitness lovers.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-three"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-two">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">LEOS DANCE STUDIO </div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      A studio designed for children and adults who love to
+                      dance.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-four"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-three">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">LEOS DA VINCI ART ACADEMY</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Get creative in our dedicated art academy with a variety
+                      of workshops.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-five"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-four">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">KID’S DAY CARE & NURSERY </div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      The perfect space for your little ones to play and engage
+                      with other children.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-six"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-five">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">AI SUPERMARKET</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Powered by AI, get access to all your daily essentials.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-seven"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-six">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">A SAUNA</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      De-stress and rejuvenate your mind, body and soul in the
+                      sauna.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-eight"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-seven">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">HIMALAYAN TEA HOUSE</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Enjoy an iced tea or an oriental infusion at our tea
+                      kiosk.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-twenty-nine"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-twenty-eight">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">BELLA NAPOLI PIZZERIA</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Cook your freshly made pizzas in our community pizza oven.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-thirty"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-thirty-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
+
                 <div className="buttons">
                   <button id="prev" onClick={handleLeftNavigation}>
                     <i className="fa-solid fa-angle-left">
@@ -325,146 +243,8 @@ const Amenities = () => {
           </div>
         </div>
       </div>
-      {/* <div className="left-navigation-menu">
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/exterior1"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faPersonShelter}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Exterior 1</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/exterior2"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faPersonShelter}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Exterior 2</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/dusk"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faSun}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Dusk</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/entrance"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faDungeon}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Entrance</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/facade"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faStore}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Facade</h4>
-          </Link>
-        </div>
-        <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/balcony"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faTableCellsLarge}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Balcony</h4>
-          </Link>
-        </div>
-      </div> */}
       <LeftSidebar />
       <ProjectBottomBar />
-      {/* <div className="bottom-navigations-bar">
-        <div className="mini-navigation-bar">
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights"}>
-              <FontAwesomeIcon
-                icon={faHouse}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-items">Home</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/"}>
-              <FontAwesomeIcon
-                icon={faLocationDot}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-items">Location</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/amenities"}>
-              <FontAwesomeIcon
-                icon={faHeart}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-items">Amenities</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/units"}>
-              <FontAwesomeIcon
-                icon={faWindowRestore}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-items">Units</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/"}>
-              <FontAwesomeIcon
-                icon={faShield}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-items">Collaterals</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to="/">
-              <FontAwesomeIcon
-                icon={faDoorOpen}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-items">Back</h4>
-            </Link>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 };

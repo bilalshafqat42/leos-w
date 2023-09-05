@@ -51,54 +51,36 @@ const HadleyHeights = () => {
               <div id="slide">
                 <div className="items exterior-one-slide-one">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">HADLEY HEIGHTS</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Your home in Jumeirah Village Circle (JVC)
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-two">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">MODERN ARCHITECTURE & DESIGN</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Designed and built to the highest quality specifications
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-three">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">PREMIUM QUALITY APARTMENTS</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Choose from studios, 1 & 2 bedroom apartments
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-four">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">PREMIUM QUALITY APARTMENTS</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div className="items exterior-one-slide-five">
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div className="items exterior-one-slide-one">
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      Choose from studios, 1 & 2 bedroom apartments
                     </div>
                     <button>See More</button>
                   </div>

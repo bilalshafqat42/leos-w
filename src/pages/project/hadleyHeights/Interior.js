@@ -1,20 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHouse,
-  faDoorOpen,
-  faShield,
-  faWindowRestore,
-  faHeart,
-  faLocationDot,
-  faPersonShelter,
-  faSun,
-  faDungeon,
-  faStore,
-  faTableCellsLarge,
-  faArrowRight,
-  faArrowLeft,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 import { Link } from "react-router-dom";
 
@@ -60,24 +46,106 @@ const Interior = () => {
           <div className="col">
             <div className="containing">
               <div id="slide">
-                <div className="items exterior-one-slide-five">
+                <div className="items interior-one-slide-eleven">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">ELEVATOR HALLWAYS</div>
+                    <div className="des">
+                      Modern, spacious hallways on all floors.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div className="items interior-one-slide-one">
+                  <div className="content">
+                    <div className="name">KITCHEN</div>
+                    <div className="des">
+                      Contemporary kitchens with built-in appliances.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div className="items interior-one-slide-two">
+                  <div className="content">
+                    <div className="name">LIVING ROOMS</div>
                     <div className="des">
                       description lorem ipsum sedts at dummy text written here.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
-                <div className="items exterior-one-slide-one">
+                <div className="items interior-one-slide-three">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
+                    <div className="name">LIVING / DINING AREA</div>
                     <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
+                      The perfect space to enjoy quality downtime.
                     </div>
                     <button>See More</button>
                   </div>
                 </div>
+                <div className="items interior-one-slide-four">
+                  <div className="content">
+                    <div className="name">BEDROOMS</div>
+                    <div className="des">
+                      Elegant and sophisticated bedrooms.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div className="items interior-one-slide-five">
+                  <div className="content">
+                    <div className="name">Bathrooms</div>
+                    <div className="des">
+                      Stylish and functional modern bathrooms.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div className="items interior-one-slide-six">
+                  <div className="content">
+                    <div className="name">CHILDREN’s BEDROOM</div>
+                    <div className="des">
+                      Create the perfect haven for your little ones.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div className="items interior-one-slide-seven">
+                  <div className="content">
+                    <div className="name">STUDY ROOM</div>
+                    <div className="des">
+                      Customise your living space with a private study room
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div className="items interior-one-slide-eight">
+                  <div className="content">
+                    <div className="name">PET’S ROOM</div>
+                    <div className="des">
+                      Create your own pet’s room or play area.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div className="items interior-one-slide-nine">
+                  <div className="content">
+                    <div className="name">HOME GYM </div>
+                    <div className="des">
+                      Incorporate your own personal gym at home.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+                <div className="items interior-one-slide-ten">
+                  <div className="content">
+                    <div className="name">TERRACES</div>
+                    <div className="des">
+                      All apartments feature a beautiful sunny terrace.
+                    </div>
+                    <button>See More</button>
+                  </div>
+                </div>
+
                 <div className="buttons">
                   <button id="prev" onClick={handleLeftNavigation}>
                     <i className="fa-solid fa-angle-left">

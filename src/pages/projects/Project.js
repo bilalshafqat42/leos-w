@@ -3,11 +3,9 @@ import "./project.css";
 
 import Logo from "../../assets/images/logo.png";
 import { Link } from "react-router-dom";
-import MainBannerImage from "../../assets/images/headley-featured-image.jpg";
+import MainBannerImage from "../../assets/images/hadley/project-page-image.jpg";
 
-// import Navigation from "../../components/navigation/Navigation";
 import ProjectNavigation from "../../components/projectsNavigation/ProjectNavigation";
-// import HomepageBanner from "../../assets/images/main-homepage-banner.jpg";
 
 const Project = () => {
   return (
@@ -17,7 +15,7 @@ const Project = () => {
           <div className="col">
             <div className="main-mini-heading-sections">
               <h1 className="mt-4 mb-2 page-heading-title">
-                <Link to="/">LEO'S PROJECTS</Link>
+                <Link to="/">LEOS PROJECTS</Link>
               </h1>
               <Link to="/">
                 <img

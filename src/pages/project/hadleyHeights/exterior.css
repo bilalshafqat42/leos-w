@@ -49,8 +49,39 @@
 .exterior-one-slide-four {
   background-image: url("../../../assets/images/hadley/exterior-images/exterior4.jpg");
 }
-.exterior-one-slide-five {
-  background-image: url("../../../assets/images/hadley/exterior-images/exterior5.jpg");
+/* interior imaegs starts here  */
+.interior-one-slide-one {
+  background-image: url("../../../assets/images/hadley/interior/1-kitchen.jpg");
+}
+.interior-one-slide-two {
+  background-image: url("../../../assets/images/hadley/interior/2-living-w-dining-area.jpg");
+}
+.interior-one-slide-three {
+  background-image: url("../../../assets/images/hadley/interior/3-living-room.jpg");
+}
+.interior-one-slide-four {
+  background-image: url("../../../assets/images/hadley/interior/4-bedroom.jpg");
+}
+.interior-one-slide-five {
+  background-image: url("../../../assets/images/hadley/interior/5-bathroom.jpg");
+}
+.interior-one-slide-six {
+  background-image: url("../../../assets/images/hadley/interior/6-children-bedroom.jpg");
+}
+.interior-one-slide-seven {
+  background-image: url("../../../assets/images/hadley/interior/7-study-room.jpg");
+}
+.interior-one-slide-eight {
+  background-image: url("../../../assets/images/hadley/interior/8-petroom.jpg");
+}
+.interior-one-slide-nine {
+  background-image: url("../../../assets/images/hadley/interior/9-gym.jpg");
+}
+.interior-one-slide-ten {
+  background-image: url("../../../assets/images/hadley/interior/10-terrace.jpg");
+}
+.interior-one-slide-eleven {
+  background-image: url("../../../assets/images/hadley/interior/11-elevator-hallway.jpg");
 }
 
 .exterior-one-slide-seven {
@@ -74,63 +105,63 @@
 }
 /* amenities images started here  */
 .exterior-one-slide-twelve {
-  background-image: url("../../../assets/images/hadley/amenities/1.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/1-main-lobby.jpg");
 }
 .exterior-one-slide-thirteen {
-  background-image: url("../../../assets/images/hadley/amenities/2.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/2-lobby.jpg");
 }
 .exterior-one-slide-fourteen {
-  background-image: url("../../../assets/images/hadley/amenities/3.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/3-coworking-space.jpg");
 }
 .exterior-one-slide-fifteen {
-  background-image: url("../../../assets/images/hadley/amenities/4.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/4-clubhouse.jpg");
 }
 .exterior-one-slide-sixteen {
-  background-image: url("../../../assets/images/hadley/amenities/5.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/5-gymnasium.jpg");
 }
 .exterior-one-slide-seventeen {
-  background-image: url("../../../assets/images/hadley/amenities/6.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/6-swiming-pool.jpg");
 }
 .exterior-one-slide-eighteen {
-  background-image: url("../../../assets/images/hadley/amenities/7.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/7-japanese-garden.jpg");
 }
 .exterior-one-slide-ninteen {
-  background-image: url("../../../assets/images/hadley/amenities/8.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/8-outdoor-cinema.jpg");
 }
 .exterior-one-slide-twenty {
-  background-image: url("../../../assets/images/hadley/amenities/9.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/9-vertical-farm.jpg");
 }
 .exterior-one-slide-twenty-one {
-  background-image: url("../../../assets/images/hadley/amenities/10.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/10-boxing-academy.jpg");
 }
 .exterior-one-slide-twenty-two {
-  background-image: url("../../../assets/images/hadley/amenities/11.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/11-dance-studio.jpg");
 }
 .exterior-one-slide-twenty-three {
-  background-image: url("../../../assets/images/hadley/amenities/12.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/12-art-academy.jpg");
 }
 .exterior-one-slide-twenty-four {
-  background-image: url("../../../assets/images/hadley/amenities/13.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/13-kids-area.jpg");
 }
 .exterior-one-slide-twenty-five {
-  background-image: url("../../../assets/images/hadley/amenities/14.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/14-ai-supermarket.jpg");
 }
 .exterior-one-slide-twenty-six {
-  background-image: url("../../../assets/images/hadley/amenities/15.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/15-sauna.jpg");
 }
 .exterior-one-slide-twenty-seven {
-  background-image: url("../../../assets/images/hadley/amenities/16.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/16-tea-house.jpg");
 }
 .exterior-one-slide-twenty-eight {
-  background-image: url("../../../assets/images/hadley/amenities/17.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/17-pizza.jpg");
 }
 .exterior-one-slide-twenty-nine {
-  background-image: url("../../../assets/images/hadley/amenities/18.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/18-bar-be-que.jpg");
 }
 .exterior-one-slide-thirty {
-  background-image: url("../../../assets/images/hadley/amenities/19.jpg");
+  background-image: url("../../../assets/images/hadley/amenities/19-cafe.jpg");
 }
-.exterior-one-slide-thirty-one {
+/*.exterior-one-slide-thirty-one {
   background-image: url("../../../assets/images/hadley/amenities/20.jpg");
 }
 .exterior-one-slide-thirty-two {
@@ -138,7 +169,7 @@
 }
 .exterior-one-slide-thirty-three {
   background-image: url("../../../assets/images/hadley/amenities/22.jpg");
-}
+} */
 .exterior-one-slide-thirty-four {
   background-image: url("../../../assets/images/hadley/amenities/23.jpg");
 }
@@ -212,19 +243,19 @@
   background-image: url("../../../assets/images/hadley/floors/building.jpg");
 }
 .exterior-one-slide-one-unit-1 {
-  background-image: url("../../../assets/images/hadley/floor-plans/Unit01.jpg");
+  background-image: url("../../../assets/images/hadley/3d/1-Studio.jpg");
 }
 .exterior-one-slide-one-unit-2 {
-  background-image: url("../../../assets/images/hadley/floor-plans/Unit02.jpg");
+  background-image: url("../../../assets/images/hadley/3d/2-1-Bedroom.jpg");
 }
 .exterior-one-slide-one-unit-3 {
-  background-image: url("../../../assets/images/hadley/floor-plans/Unit03.jpg");
+  background-image: url("../../../assets/images/hadley/3d/3-Customisable-with-study-&-gym.jpg");
 }
 .exterior-one-slide-one-unit-4 {
-  background-image: url("../../../assets/images/hadley/floor-plans/Unit04.jpg");
+  background-image: url("../../../assets/images/hadley/3d/4-Customisable-with-study-&-gym_2.jpg");
 }
 .exterior-one-slide-one-unit-5 {
-  background-image: url("../../../assets/images/hadley/floor-plans/Unit05.jpg");
+  background-image: url("../../../assets/images/hadley/3d/5-bed-with-movie-room.jpg");
 }
 .exterior-one-slide-one-unit-6 {
   background-image: url("../../../assets/images/hadley/floor-plans/Unit06.jpg");
@@ -242,21 +273,21 @@
   background-image: url("../../../assets/images/hadley/floor-plans/Unit10.jpg");
 }
 .exterior-one-slide-one-unit-3d-1 {
-  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
+  background-image: url("../../../assets/images/hadley/3d/1-Studio.jpg");
 }
 .exterior-one-slide-one-unit-3d-2 {
-  background-image: url("../../../assets/images/hadley/3d/3-bed-with-movie-room.jpg");
+  background-image: url("../../../assets/images/hadley/3d/2-1-Bedroom.jpg");
 }
 .exterior-one-slide-one-unit-3d-3 {
-  background-image: url("../../../assets/images/hadley/3d/Customisable-with-study-&-gym.jpg");
+  background-image: url("../../../assets/images/hadley/3d/3-Customisable-with-study-&-gym.jpg");
 }
 .exterior-one-slide-one-unit-3d-4 {
-  background-image: url("../../../assets/images/hadley/3d/Gym.jpg");
+  background-image: url("../../../assets/images/hadley/3d/4-Customisable-with-study-&-gym_2.jpg");
 }
 .exterior-one-slide-one-unit-3d-5 {
-  background-image: url("../../../assets/images/hadley/3d/Kidsplay.jpg");
+  background-image: url("../../../assets/images/hadley/3d/5-bed-with-movie-room.jpg");
 }
-.exterior-one-slide-one-unit-3d-6 {
+/* .exterior-one-slide-one-unit-3d-6 {
   background-image: url("../../../assets/images/hadley/3d/Studio.jpg");
 }
 .exterior-one-slide-one-unit-3d-7 {
@@ -270,7 +301,7 @@
 }
 .exterior-one-slide-one-unit-3d-7 {
   background-image: url("../../../assets/images/hadley/3d/Studio.jpg");
-}
+} */
 /* amenities images ends here  */
 #slide {
   width: max-content;
@@ -333,6 +364,7 @@
 }
 .items .name {
   font-size: 40px;
+  line-height: 40px;
   font-weight: bold;
   opacity: 0;
   animation: showcontent 1s ease-in-out 1 forwards;

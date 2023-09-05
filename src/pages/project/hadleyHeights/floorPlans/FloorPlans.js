@@ -54,15 +54,6 @@ const FloorPlans = () => {
           <div className="col">
             <div className="containings">
               <div id="slide" className="no-thumbs floor-plans-banners">
-                <div className="items exterior-one-slide-one-unit-1  floorplans-thumb">
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
                 <div className="items exterior-one-slide-one-unit-3d-1 floorplans-thumb">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
@@ -131,10 +122,10 @@ const FloorPlans = () => {
               className="d-flex flex-direction-row text-center align-items-center"
             >
               <FontAwesomeIcon
-                icon={faBed}
+                icon={faPersonShelter}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">1 Bedroom</h4>
+              <h4 className="bottom-navigation-itemss">Studio</h4>
             </Link>
           </div>
           <div className="mini-navigation-bar-left">
@@ -158,7 +149,7 @@ const FloorPlans = () => {
                 icon={faPersonShelter}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">2 Br + Gym</h4>
+              <h4 className="bottom-navigation-itemss">2 Br Study</h4>
             </Link>
           </div>
           <div className="mini-navigation-bar-left">
@@ -170,7 +161,7 @@ const FloorPlans = () => {
                 icon={faPersonShelter}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">Studio</h4>
+              <h4 className="bottom-navigation-itemss">2 Br Gym</h4>
             </Link>
           </div>
           <div className="mini-navigation-bar-left">
@@ -182,67 +173,7 @@ const FloorPlans = () => {
                 icon={faPersonShelter}
                 className="icons-section-bottom-navigation"
               />
-              <h4 className="bottom-navigation-itemss">Floor 5</h4>
-            </Link>
-          </div>
-          <div className="mini-navigation-bar-left">
-            <Link
-              to={"/projects/hadley-heights/floorplan-6"}
-              className="d-flex flex-direction-row text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faPersonShelter}
-                className="icons-section-bottom-navigation"
-              />
-              <h4 className="bottom-navigation-itemss">Floor 6</h4>
-            </Link>
-          </div>
-          <div className="mini-navigation-bar-left">
-            <Link
-              to={"/projects/hadley-heights/floorplan-7"}
-              className="d-flex flex-direction-row text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faPersonShelter}
-                className="icons-section-bottom-navigation"
-              />
-              <h4 className="bottom-navigation-itemss">Floor 7</h4>
-            </Link>
-          </div>
-          <div className="mini-navigation-bar-left">
-            <Link
-              to={"/projects/hadley-heights/floorplan-8"}
-              className="d-flex flex-direction-row text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faPersonShelter}
-                className="icons-section-bottom-navigation"
-              />
-              <h4 className="bottom-navigation-itemss">Floor 8</h4>
-            </Link>
-          </div>
-          <div className="mini-navigation-bar-left">
-            <Link
-              to={"/projects/hadley-heights/floorplan-9"}
-              className="d-flex flex-direction-row text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faPersonShelter}
-                className="icons-section-bottom-navigation"
-              />
-              <h4 className="bottom-navigation-itemss">Floor 9</h4>
-            </Link>
-          </div>
-          <div className="mini-navigation-bar-left">
-            <Link
-              to={"/projects/hadley-heights/floorplan-10"}
-              className="d-flex flex-direction-row text-center align-items-center"
-            >
-              <FontAwesomeIcon
-                icon={faPersonShelter}
-                className="icons-section-bottom-navigation"
-              />
-              <h4 className="bottom-navigation-itemss">Floor 10</h4>
+              <h4 className="bottom-navigation-itemss">2 Br Movie</h4>
             </Link>
           </div>
         </div>
