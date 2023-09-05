@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-// import images from "../../assets/db/images";
 import { bottomNavigationdatas } from "../../db/bottomNavigationdatas";
 import { NavLink, Link } from "react-router-dom";
 
