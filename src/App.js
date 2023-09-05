@@ -51,12 +51,16 @@ import WeybridgeGardens from "./pages/project/weybridgeGardens/WeybridgeGardens"
 import HadleyHeights2 from "./pages/project/hadleyHeights2/HadleyHeights2";
 import Balcony from "./pages/project/hadleyHeights/Balcony";
 
+import Apitest from "./Apitest";
+
 function App() {
   return (
     <Routes>
       <Route exact path="/" element={<Home />} />
       <Route path="/projects" element={<Project />} />
       <Route path="/projects/hadley-heights" element={<HadleyHeights />} />
+      <Route path="/test" element={<Apitest />} />
+
       <Route
         path="/projects/hadley-heights/exterior1"
         element={<Exterior1 />}
