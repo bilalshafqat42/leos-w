@@ -161,15 +161,6 @@
 .exterior-one-slide-thirty {
   background-image: url("../../../assets/images/hadley/amenities/19-cafe.jpg");
 }
-/*.exterior-one-slide-thirty-one {
-  background-image: url("../../../assets/images/hadley/amenities/20.jpg");
-}
-.exterior-one-slide-thirty-two {
-  background-image: url("../../../assets/images/hadley/amenities/21.jpg");
-}
-.exterior-one-slide-thirty-three {
-  background-image: url("../../../assets/images/hadley/amenities/22.jpg");
-} */
 .exterior-one-slide-thirty-four {
   background-image: url("../../../assets/images/hadley/amenities/23.jpg");
 }
@@ -287,21 +278,7 @@
 .exterior-one-slide-one-unit-3d-5 {
   background-image: url("../../../assets/images/hadley/3d/5-bed-with-movie-room.jpg");
 }
-/* .exterior-one-slide-one-unit-3d-6 {
-  background-image: url("../../../assets/images/hadley/3d/Studio.jpg");
-}
-.exterior-one-slide-one-unit-3d-7 {
-  background-image: url("../../../assets/images/hadley/3d/1-Bedroom.jpg");
-}
-.exterior-one-slide-one-unit-3d-7 {
-  background-image: url("../../../assets/images/hadley/3d/3-bed-with-movie-room.jpg");
-}
-.exterior-one-slide-one-unit-3d-7 {
-  background-image: url("../../../assets/images/hadley/3d/Customisable-with-study-&-gym.jpg");
-}
-.exterior-one-slide-one-unit-3d-7 {
-  background-image: url("../../../assets/images/hadley/3d/Studio.jpg");
-} */
+
 /* amenities images ends here  */
 #slide {
   width: max-content;
@@ -369,6 +346,7 @@
   opacity: 0;
   animation: showcontent 1s ease-in-out 1 forwards;
   text-shadow: 0 0 10px #232323;
+  text-transform: uppercase;
 }
 .items .des {
   margin: 20px 0;
@@ -443,9 +421,11 @@ h1.page-heading-title {
 .units-buttons-design {
   margin-bottom: 2px !important;
 }
+/*
 #slides .no-thumbs {
-  /* display: none; */
+  display: none; 
 }
+*/
 .floor-plans-banners .content {
   padding: 40px;
   background-color: #232323;

@@ -1,6 +1,8 @@
 import React from "react";
 import "./home.css";
 import Logo from "../../assets/images/logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCircleLeft } from "@fortawesome/free-solid-svg-icons";
 
 // import Navigation from "../../components/navigation/Navigation";
 import BottomNavigation from "../../components/bottomNavigation/BottomNavigation";
@@ -49,6 +51,12 @@ const Home = () => {
       {/* </div> */}
       {/* <Navigation /> */}
       <BottomNavigation />
+      {/* <Link className="special-back-to-home-button" to={"/projects"}>
+        <FontAwesomeIcon
+          icon={faCircleLeft}
+          className="icons-section-bottom-navigation"
+        />
+      </Link> */}
     </div>
   );
 };
