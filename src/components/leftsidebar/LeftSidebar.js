@@ -39,7 +39,7 @@ const LeftSidebar = () => {
               icon={faBuilding}
               className="icons-section-bottom-navigation"
             />
-            <h4 className="bottom-navigation-itemss">Exterior</h4>
+            <h4 className="bottom-navigation-itemss">Exteriors</h4>
           </Link>
         </div>
         <div className="mini-navigation-bar-left">
@@ -51,7 +51,7 @@ const LeftSidebar = () => {
               icon={faCouch}
               className="icons-section-bottom-navigation"
             />
-            <h4 className="bottom-navigation-itemss">Interior</h4>
+            <h4 className="bottom-navigation-itemss">Interiors</h4>
           </Link>
         </div>
         <div className="mini-navigation-bar-left">

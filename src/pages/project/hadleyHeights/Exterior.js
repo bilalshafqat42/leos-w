@@ -26,7 +26,7 @@ const Exterior = () => {
           <div className="col">
             <div className="main-mini-heading-section">
               <Link to={"/"}>
-                <h1 className="mt-4 mb-2 page-heading-title">Exterior Page</h1>
+                <h1 className="mt-4 mb-2 page-heading-title">Exteriors Page</h1>
               </Link>
               <Link to="/">
                 <img
