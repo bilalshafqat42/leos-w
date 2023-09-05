@@ -22,14 +22,6 @@ export const bottomNavigationdatas = [
     title: "Intro Video",
     imageURL: "../../assets/images/intro-light-image.jpg",
   },
-  // {
-  //   title: "Number 5",
-  //   imageURL: "../../assets/images/image-carousel5.jpg",
-  // },
-  // {
-  //   title: "Number 6",
-  //   imageURL: "../../assets/images/image-carousel6.jpg",
-  // },
 ];
 
 // export default [image1, image2, image3, image4, image5, image6];

@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import Project from "./pages/projects/Project";
 import HadleyHeights from "./pages/project/hadleyHeights/HadleyHeights";
-import Exterior1 from "./pages/project/hadleyHeights/Exterior1";
-import Exterior2 from "./pages/project/hadleyHeights/Exterior2";
+import Exterior from "./pages/project/hadleyHeights/Exterior";
+import Interior from "./pages/project/hadleyHeights/Interior";
 import Dusk from "./pages/project/hadleyHeights/Dusk";
 import Entrance from "./pages/project/hadleyHeights/Entrance";
 import Facade from "./pages/project/hadleyHeights/Facade";
@@ -49,7 +49,7 @@ import FloorPlan10 from "./pages/project/hadleyHeights/floorPlans/FloorPlan10";
 
 import WeybridgeGardens from "./pages/project/weybridgeGardens/WeybridgeGardens";
 import HadleyHeights2 from "./pages/project/hadleyHeights2/HadleyHeights2";
-import Balcony from "./pages/project/hadleyHeights/Balcony";
+import VirtualTour from "./pages/project/hadleyHeights/VirtualTour";
 
 import Apitest from "./Apitest";
 
@@ -61,18 +61,15 @@ function App() {
       <Route path="/projects/hadley-heights" element={<HadleyHeights />} />
       <Route path="/test" element={<Apitest />} />
 
-      <Route
-        path="/projects/hadley-heights/exterior1"
-        element={<Exterior1 />}
-      />
-      <Route
-        path="/projects/hadley-heights/exterior2"
-        element={<Exterior2 />}
-      />
+      <Route path="/projects/hadley-heights/exterior" element={<Exterior />} />
+      <Route path="/projects/hadley-heights/interior" element={<Interior />} />
       <Route path="/projects/hadley-heights/dusk" element={<Dusk />} />
       <Route path="/projects/hadley-heights/entrance" element={<Entrance />} />
       <Route path="/projects/hadley-heights/facade" element={<Facade />} />
-      <Route path="/projects/hadley-heights/balcony" element={<Balcony />} />
+      <Route
+        path="/projects/hadley-heights/virtual-tour"
+        element={<VirtualTour />}
+      />
       <Route path="/projects/hadley-heights/location" element={<Location />} />
       <Route path="/projects/hadley-heights/units" element={<Units />} />
 

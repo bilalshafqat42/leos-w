@@ -36,3 +36,7 @@ a {
 ::-webkit-scrollbar {
   width: 10px;
 }
+
+#loading-gui #loading-powered-by.faded-in {
+  z-index: -9 !important;
+}

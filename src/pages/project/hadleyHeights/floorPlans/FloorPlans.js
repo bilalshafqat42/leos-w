@@ -2,6 +2,7 @@ import "../../projectPage.css";
 // import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
 import "../hadleyHeights.css";
 import "../exterior.css";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -135,7 +136,7 @@ const FloorPlans = () => {
             <h4 className="bottom-navigation-itemss">Units</h4>
           </Link>
         </div>
-        <div className="mini-navigation-bar-left">
+        {/* <div className="mini-navigation-bar-left">
           <Link
             to={"/projects/hadley-heights/floorplans"}
             className="d-flex flex-direction-row text-center align-items-center"
@@ -146,9 +147,9 @@ const FloorPlans = () => {
             />
             <h4 className="bottom-navigation-itemss">Floor Plans</h4>
           </Link>
-        </div>
+        </div> */}
       </div>
-      {}
+      {/* {}
       <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
@@ -212,7 +213,8 @@ const FloorPlans = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <ProjectBottomBar />
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="mini-navigation-bar-left">

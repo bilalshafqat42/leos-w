@@ -21,9 +21,10 @@ import { Link } from "react-router-dom";
 import Logo from "../../../assets/images/logo.png";
 
 import "./exterior.css";
-// import "./slide-animation";
+import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
+import ProjectBottomBar from "../../../components/projectBottomBar/ProjectBottomBar";
 
-const Balcony = () => {
+const Interior = () => {
   const handleRightNavigation = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").appendChild(lists[0]);
@@ -38,8 +39,8 @@ const Balcony = () => {
         <div className="row">
           <div className="col">
             <div className="main-mini-heading-section">
-              <Link to="/">
-                <h1 className="mt-4 mb-2 page-heading-title">Balcony Page</h1>
+              <Link to={"/"}>
+                <h1 className="mt-4 mb-2 page-heading-title">Interior Page </h1>
               </Link>
               <Link to="/">
                 <img
@@ -59,10 +60,7 @@ const Balcony = () => {
           <div className="col">
             <div className="containing">
               <div id="slide">
-                <div
-                  className="items exterior-one-slide-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-five">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -71,58 +69,7 @@ const Balcony = () => {
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-two"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-three"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-four"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-five"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div>
-                <div
-                  className="items exterior-one-slide-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-one">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -154,7 +101,7 @@ const Balcony = () => {
           </div>
         </div>
       </div>
-      <div className="left-navigation-menu">
+      {/* <div className="left-navigation-menu">
         <div className="mini-navigation-bar-left">
           <Link
             to={"/projects/hadley-heights/exterior1"}
@@ -227,8 +174,11 @@ const Balcony = () => {
             <h4 className="bottom-navigation-itemss">Balcony</h4>
           </Link>
         </div>
-      </div>
-      <div className="bottom-navigations-bar">
+      </div> */}
+      <LeftSidebar />
+      <ProjectBottomBar />
+
+      {/* <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
             <Link to={"/projects/hadley-heights"}>
@@ -291,9 +241,9 @@ const Balcony = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
 
-export default Balcony;
+export default Interior;

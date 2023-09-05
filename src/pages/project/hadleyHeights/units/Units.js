@@ -47,6 +47,7 @@ import {
 import Logo from "../../../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 const Units = () => {
   const handleRightNavigation = () => {
@@ -227,7 +228,7 @@ const Units = () => {
           </Link>
         </div> */}
       </div>
-      <div className="bottom-navigations-bar">
+      {/* <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
             <Link to={"/projects/hadley-heights"}>
@@ -290,7 +291,8 @@ const Units = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <ProjectBottomBar />
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="row gx-2 m-1">

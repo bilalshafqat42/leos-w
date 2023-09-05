@@ -2,6 +2,7 @@ import "../../projectPage.css";
 // import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
 import "../hadleyHeights.css";
 import "../exterior.css";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 import { twentythreeFloors } from "../../../../db/twentythreeFloor";
 
@@ -134,7 +135,7 @@ const Floor23 = () => {
           </Link>
         </div>
       </div>
-      <div className="bottom-navigations-bar">
+      {/* <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
             <Link to={"/projects/hadley-heights"}>
@@ -197,7 +198,8 @@ const Floor23 = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <ProjectBottomBar />
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="mini-navigation-bar-left">
@@ -450,6 +452,18 @@ const Floor23 = () => {
                 className="icons-section-bottom-navigation"
               />
               <h4 className="bottom-navigation-itemss">Floor 21</h4>
+            </Link>
+          </div>
+          <div className="mini-navigation-bar-left">
+            <Link
+              to={"/projects/hadley-heights/floors-22"}
+              className="d-flex flex-direction-row text-center align-items-center"
+            >
+              <FontAwesomeIcon
+                icon={faPersonShelter}
+                className="icons-section-bottom-navigation"
+              />
+              <h4 className="bottom-navigation-itemss">Floor 22 </h4>
             </Link>
           </div>
           <div className="mini-navigation-bar-left">

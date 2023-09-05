@@ -22,6 +22,18 @@
   box-shadow: 0 30px 50px #dbdbdb;
   overflow-x: hidden;
 }
+.containing-3d {
+  position: absolute;
+  left: 56%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  width: 1600px;
+  height: 700px;
+  /* padding: 50px; */
+  background-color: #f5f5f5;
+  box-shadow: 0 30px 50px #dbdbdb;
+  overflow-x: hidden;
+}
 .exterior-one-slide-one-map-location {
   background-image: url("../../../assets/images/hadley-heights-map.jpg");
 }

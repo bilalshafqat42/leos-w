@@ -21,6 +21,9 @@ import { Link } from "react-router-dom";
 import Logo from "../../../assets/images/logo.png";
 
 import "./exterior.css";
+import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
+import BottomNavigation from "../../../components/bottomNavigation/BottomNavigation";
+import ProjectBottomBar from "../../../components/projectBottomBar/ProjectBottomBar";
 // import "./slide-animation";
 
 const Amenities = () => {
@@ -39,7 +42,7 @@ const Amenities = () => {
           <div className="col">
             <div className="main-mini-heading-section">
               <Link to={"/"}>
-                <h1 className="mt-4 mb-2 page-heading-title">Entrance Page</h1>
+                <h1 className="mt-4 mb-2 page-heading-title">Amenities Page</h1>
               </Link>
               <Link to="/">
                 <img
@@ -322,7 +325,7 @@ const Amenities = () => {
           </div>
         </div>
       </div>
-      <div className="left-navigation-menu">
+      {/* <div className="left-navigation-menu">
         <div className="mini-navigation-bar-left">
           <Link
             to={"/projects/hadley-heights/exterior1"}
@@ -395,8 +398,10 @@ const Amenities = () => {
             <h4 className="bottom-navigation-itemss">Balcony</h4>
           </Link>
         </div>
-      </div>
-      <div className="bottom-navigations-bar">
+      </div> */}
+      <LeftSidebar />
+      <ProjectBottomBar />
+      {/* <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
             <Link to={"/projects/hadley-heights"}>
@@ -459,7 +464,7 @@ const Amenities = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

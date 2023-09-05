@@ -4,6 +4,7 @@ import "../hadleyHeights.css";
 import "../exterior.css";
 
 import { eighteenFloors } from "../../../../db/eighteenFloor";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -123,8 +124,8 @@ const Floor18 = () => {
           ))}
         </div>
       </div>
-      {}
-      <div className="bottom-navigations-bar">
+      <ProjectBottomBar />
+      {/* <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
             <Link to={"/projects/hadley-heights"}>
@@ -187,7 +188,7 @@ const Floor18 = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="mini-navigation-bar-left">

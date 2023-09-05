@@ -4,6 +4,7 @@ import "../hadleyHeights.css";
 import "../exterior.css";
 
 import { eleventhFloors } from "../../../../db/eleventhFloor";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -123,71 +124,7 @@ const Floor11 = () => {
           ))}
         </div>
       </div>
-      {}
-      <div className="bottom-navigations-bar">
-        <div className="mini-navigation-bar">
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights"}>
-              <FontAwesomeIcon
-                icon={faHouse}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Home</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/location"}>
-              <FontAwesomeIcon
-                icon={faLocationDot}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Location</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/amenities"}>
-              <FontAwesomeIcon
-                icon={faHeart}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Amenities</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/units"}>
-              <FontAwesomeIcon
-                icon={faWindowRestore}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Units & Floor</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/"}>
-              <FontAwesomeIcon
-                icon={faShield}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Collaterals</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/"}>
-              <FontAwesomeIcon
-                icon={faDoorOpen}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Back</h4>
-            </Link>
-          </div>
-        </div>
-      </div>
+      <ProjectBottomBar />
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="mini-navigation-bar-left">

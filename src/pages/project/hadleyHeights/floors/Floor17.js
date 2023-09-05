@@ -2,6 +2,7 @@ import "../../projectPage.css";
 // import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
 import "../hadleyHeights.css";
 import "../exterior.css";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 import { seventeenFloors } from "../../../../db/seventeenFloor";
 
@@ -123,7 +124,8 @@ const Floor17 = () => {
           ))}
         </div>
       </div>
-      {}
+      <ProjectBottomBar />
+      {/* {}
       <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
@@ -187,7 +189,7 @@ const Floor17 = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="mini-navigation-bar-left">

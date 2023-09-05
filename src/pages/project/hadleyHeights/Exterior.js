@@ -15,15 +15,16 @@ import {
   faArrowRight,
   faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
+import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
 
 import { Link } from "react-router-dom";
 
 import Logo from "../../../assets/images/logo.png";
 
 import "./exterior.css";
-// import "./slide-animation";
+import ProjectBottomBar from "../../../components/projectBottomBar/ProjectBottomBar";
 
-const Exterior1 = () => {
+const Exterior = () => {
   const handleRightNavigation = () => {
     let lists = document.querySelectorAll(".items");
     document.getElementById("slide").appendChild(lists[0]);
@@ -59,10 +60,7 @@ const Exterior1 = () => {
           <div className="col">
             <div className="containing">
               <div id="slide">
-                <div
-                  className="items exterior-one-slide-one"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-one">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -71,10 +69,7 @@ const Exterior1 = () => {
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-two"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-two">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -83,10 +78,7 @@ const Exterior1 = () => {
                     <button>See More</button>
                   </div>
                 </div>
-                <div
-                  className="items exterior-one-slide-three"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
+                <div className="items exterior-one-slide-three">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
@@ -95,40 +87,6 @@ const Exterior1 = () => {
                     <button>See More</button>
                   </div>
                 </div>
-                {/* <div
-                  className="items exterior-one-slide-four"
-                  // style="background-image: url('./images/image1.jpg')"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div> */}
-                {/* <div
-                  className="items exterior-one-slide-five"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div> */}
-                {/* <div
-                  className="items exterior-one-slide-one"
-                >
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div> */}
                 <div className="buttons">
                   <button id="prev" onClick={handleLeftNavigation}>
                     <i className="fa-solid fa-angle-left">
@@ -152,7 +110,8 @@ const Exterior1 = () => {
           </div>
         </div>
       </div>
-      <div className="left-navigation-menu">
+      <LeftSidebar />
+      {/* <div className="left-navigation-menu">
         <div className="mini-navigation-bar-left">
           <Link
             to={"/projects/hadley-heights/exterior1"}
@@ -225,8 +184,8 @@ const Exterior1 = () => {
             <h4 className="bottom-navigation-itemss">Balcony</h4>
           </Link>
         </div>
-      </div>
-      <div className="bottom-navigations-bar">
+      </div> */}
+      {/* <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
             <Link to={"/projects/hadley-heights"}>
@@ -289,9 +248,10 @@ const Exterior1 = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <ProjectBottomBar />
     </section>
   );
 };
 
-export default Exterior1;
+export default Exterior;

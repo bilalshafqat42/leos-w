@@ -3,6 +3,7 @@ import "../../projectPage.css";
 // import LeftSidebar from "../../../components/leftsidebar/LeftSidebar";
 import "../hadleyHeights.css";
 import "../exterior.css";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 import { useState } from "react";
 
@@ -147,7 +148,7 @@ const Floors = () => {
           </Link>
         </div> */}
       </div>
-      <div className="bottom-navigations-bar">
+      {/* <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
             <Link to={"/projects/hadley-heights"}>
@@ -210,7 +211,8 @@ const Floors = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <ProjectBottomBar />
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="mini-navigation-bar-left">

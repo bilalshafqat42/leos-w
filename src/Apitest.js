@@ -19,6 +19,11 @@ const Apitest = () => {
         {buildingDatas.map((buildingData) => (
           <>
             {buildingData.balconyArea}
+            {buildingData.propertyName}
+            {buildingData.status}
+            {buildingData.balconyArea}
+            {buildingData.balconyArea}
+            {buildingData.balconyArea}
             <br />
           </>
         ))}
