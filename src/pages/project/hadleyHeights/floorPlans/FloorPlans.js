@@ -6,18 +6,10 @@ import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBot
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faHouse,
-  faDoorOpen,
-  faShield,
-  faWindowRestore,
-  faHeart,
-  faLocationDot,
   faPersonShelter,
-  faTableCellsLarge,
   faArrowRight,
   faArrowLeft,
   faPuzzlePiece,
-  faVectorSquare,
   faBed,
 } from "@fortawesome/free-solid-svg-icons";
 import Logo from "../../../../assets/images/logo.png";
@@ -57,13 +49,6 @@ const FloorPlans = () => {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-        <div className="row">
-          <div className="col">
-            <h1>ProjectPage</h1>
-          </div>
-        </div>
-      </div> */}
       <div className="container">
         <div className="row">
           <div className="col">
@@ -136,18 +121,6 @@ const FloorPlans = () => {
             <h4 className="bottom-navigation-itemss">Units</h4>
           </Link>
         </div>
-        {/* <div className="mini-navigation-bar-left">
-          <Link
-            to={"/projects/hadley-heights/floorplans"}
-            className="d-flex flex-direction-row text-center align-items-center"
-          >
-            <FontAwesomeIcon
-              icon={faVectorSquare}
-              className="icons-section-bottom-navigation"
-            />
-            <h4 className="bottom-navigation-itemss">Floor Plans</h4>
-          </Link>
-        </div> */}
       </div>
       {/* {}
       <div className="bottom-navigations-bar">

@@ -21,6 +21,7 @@ import {
 import Logo from "../../../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 const FloorPlan2 = () => {
   const handleRightNavigation = () => {
@@ -55,13 +56,7 @@ const FloorPlan2 = () => {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-        <div className="row">
-          <div className="col">
-            <h1>ProjectPage</h1>
-          </div>
-        </div>
-      </div> */}
+
       <div className="container">
         <div className="row">
           <div className="col">
@@ -147,7 +142,7 @@ const FloorPlan2 = () => {
           </Link>
         </div>
       </div>
-      {}
+      {/* {}
       <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
@@ -211,7 +206,9 @@ const FloorPlan2 = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
+      <ProjectBottomBar />
+
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="mini-navigation-bar-left">

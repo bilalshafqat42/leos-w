@@ -21,6 +21,7 @@ import {
 import Logo from "../../../../assets/images/logo.png";
 
 import { Link } from "react-router-dom";
+import ProjectBottomBar from "../../../../components/projectBottomBar/ProjectBottomBar";
 
 const FloorPlan7 = () => {
   const handleRightNavigation = () => {
@@ -147,8 +148,8 @@ const FloorPlan7 = () => {
           </Link>
         </div>
       </div>
-      {}
-      <div className="bottom-navigations-bar">
+      <ProjectBottomBar />
+      {/* <div className="bottom-navigations-bar">
         <div className="mini-navigation-bar">
           <div className="navigation-content">
             <Link to={"/projects/hadley-heights"}>
@@ -211,7 +212,7 @@ const FloorPlan7 = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">
           <div className="mini-navigation-bar-left">
