@@ -164,9 +164,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    firstFloor.status == true
+                    firstFloor.status === true
                       ? "green-bg"
-                      : firstFloor.status == null
+                      : firstFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -190,9 +190,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    secondFloor.status == true
+                    secondFloor.status === true
                       ? "green-bg"
-                      : secondFloor.status == null
+                      : secondFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -216,9 +216,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    thirdFloor.status == true
+                    thirdFloor.status === true
                       ? "green-bg"
-                      : thirdFloor.status == null
+                      : thirdFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -242,9 +242,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    fourthFloor.status == true
+                    fourthFloor.status === true
                       ? "green-bg"
-                      : fourthFloor.status == null
+                      : fourthFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -268,9 +268,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    fifthFloor.status == true
+                    fifthFloor.status === true
                       ? "green-bg"
-                      : fifthFloor.status == null
+                      : fifthFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -294,9 +294,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    sixthFloor.status == true
+                    sixthFloor.status === true
                       ? "green-bg"
-                      : sixthFloor.status == null
+                      : sixthFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -320,9 +320,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    seventhFloor.status == true
+                    seventhFloor.status === true
                       ? "green-bg"
-                      : seventhFloor.status == null
+                      : seventhFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -346,9 +346,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    eighthFloor.status == true
+                    eighthFloor.status === true
                       ? "green-bg"
-                      : eighthFloor.status == null
+                      : eighthFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -372,9 +372,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    ninthFloor.status == true
+                    ninthFloor.status === true
                       ? "green-bg"
-                      : ninthFloor.status == null
+                      : ninthFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -398,9 +398,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    tenthFloor.status == true
+                    tenthFloor.status === true
                       ? "green-bg"
-                      : tenthFloor.status == null
+                      : tenthFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -424,9 +424,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    eleventhFloor.status == true
+                    eleventhFloor.status === true
                       ? "green-bg"
-                      : eleventhFloor.status == null
+                      : eleventhFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -450,9 +450,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    twelthFloor.status == true
+                    twelthFloor.status === true
                       ? "green-bg"
-                      : twelthFloor.status == null
+                      : twelthFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -476,9 +476,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    thirteenFloor.status == true
+                    thirteenFloor.status === true
                       ? "green-bg"
-                      : thirteenFloor.status == null
+                      : thirteenFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -502,9 +502,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    fourteenFloor.status == true
+                    fourteenFloor.status === true
                       ? "green-bg"
-                      : fourteenFloor.status == null
+                      : fourteenFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -528,9 +528,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    fifteenFloor.status == true
+                    fifteenFloor.status === true
                       ? "green-bg"
-                      : fifteenFloor.status == null
+                      : fifteenFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -554,9 +554,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    sixteenFloor.status == true
+                    sixteenFloor.status === true
                       ? "green-bg"
-                      : sixteenFloor.status == null
+                      : sixteenFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -580,9 +580,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    seventeenFloor.status == true
+                    seventeenFloor.status === true
                       ? "green-bg"
-                      : seventeenFloor.status == null
+                      : seventeenFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -606,9 +606,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    eighteenFloor.status == true
+                    eighteenFloor.status === true
                       ? "green-bg"
-                      : eighteenFloor.status == null
+                      : eighteenFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -632,9 +632,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    ninteenFloor.status == true
+                    ninteenFloor.status === true
                       ? "green-bg"
-                      : ninteenFloor.status == null
+                      : ninteenFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -658,9 +658,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    twentyFloor.status == true
+                    twentyFloor.status === true
                       ? "green-bg"
-                      : twentyFloor.status == null
+                      : twentyFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -684,9 +684,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    twentyoneFloor.status == true
+                    twentyoneFloor.status === true
                       ? "green-bg"
-                      : twentyoneFloor.status == null
+                      : twentyoneFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
