@@ -710,9 +710,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    twentytwoFloor.status == true
+                    twentytwoFloor.status === true
                       ? "green-bg"
-                      : twentytwoFloor.status == null
+                      : twentytwoFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
@@ -736,9 +736,9 @@ const Units = () => {
               <div key={index} className="col-6">
                 <div
                   className={`${
-                    twentythreeFloor.status == true
+                    twentythreeFloor.status === true
                       ? "green-bg"
-                      : twentythreeFloor.status == null
+                      : twentythreeFloor.status === null
                       ? "white-bg"
                       : "red-bg"
                   } w-100 px-2`}
