@@ -17,7 +17,7 @@ export const ninteenFloors = [
   {
     unitNumber: "1904",
     unitType: "2 Br",
-    status: null,
+    status: true,
   },
   {
     unitNumber: "1905",

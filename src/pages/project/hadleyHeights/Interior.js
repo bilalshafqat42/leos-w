@@ -52,7 +52,6 @@ const Interior = () => {
                     <div className="des">
                       Modern, spacious hallways on all floors.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-one">
@@ -61,7 +60,6 @@ const Interior = () => {
                     <div className="des">
                       Contemporary kitchens with built-in appliances.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-two">
@@ -70,7 +68,6 @@ const Interior = () => {
                     <div className="des">
                       description lorem ipsum sedts at dummy text written here.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-three">
@@ -79,7 +76,6 @@ const Interior = () => {
                     <div className="des">
                       The perfect space to enjoy quality downtime.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-four">
@@ -88,7 +84,6 @@ const Interior = () => {
                     <div className="des">
                       Elegant and sophisticated bedrooms.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-five">
@@ -97,7 +92,6 @@ const Interior = () => {
                     <div className="des">
                       Stylish and functional modern bathrooms.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-six">
@@ -106,7 +100,6 @@ const Interior = () => {
                     <div className="des">
                       Create the perfect haven for your little ones.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-seven">
@@ -115,7 +108,6 @@ const Interior = () => {
                     <div className="des">
                       Customise your living space with a private study room
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-eight">
@@ -124,7 +116,6 @@ const Interior = () => {
                     <div className="des">
                       Create your own pet’s room or play area.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-nine">
@@ -133,7 +124,6 @@ const Interior = () => {
                     <div className="des">
                       Incorporate your own personal gym at home.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items interior-one-slide-ten">
@@ -142,7 +132,6 @@ const Interior = () => {
                     <div className="des">
                       All apartments feature a beautiful sunny terrace.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="buttons">

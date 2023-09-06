@@ -17,7 +17,7 @@ export const thirdFloors = [
   {
     unitNumber: "304",
     unitType: "2 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "305",
@@ -47,6 +47,6 @@ export const thirdFloors = [
   {
     unitNumber: "310",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
 ];

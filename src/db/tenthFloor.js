@@ -2,7 +2,7 @@ export const tenthFloors = [
   {
     unitNumber: "1001",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "1002",

@@ -22,17 +22,17 @@ export const fourteenFloors = [
   {
     unitNumber: "1405",
     unitType: "2 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "1406",
     unitType: "2 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "1407",
     unitType: "1 Br",
-    status: false,
+    status: null,
   },
   {
     unitNumber: "1408",

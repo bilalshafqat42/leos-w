@@ -63,7 +63,6 @@ const Floor12 = () => {
                     <div className="des">
                       description lorem ipsum sedts at dummy text written here.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="buttons">

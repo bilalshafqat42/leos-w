@@ -32,7 +32,7 @@ export const fifthFloors = [
   {
     unitNumber: "507",
     unitType: "1 Br",
-    status: true,
+    status: null,
   },
   {
     unitNumber: "508",

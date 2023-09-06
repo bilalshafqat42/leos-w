@@ -54,22 +54,12 @@ const FloorPlan3 = () => {
           <div className="col">
             <div className="containings">
               <div id="slide" className="no-thumbs floor-plans-banners">
-                {/* <div className="items exterior-one-slide-one-unit-3  floorplans-thumb">
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div> */}
                 <div className="items exterior-one-slide-one-unit-3d-3 floorplans-thumb">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
                       description lorem ipsum sedts at dummy text written here.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="buttons">

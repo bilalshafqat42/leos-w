@@ -54,22 +54,12 @@ const FloorPlan5 = () => {
           <div className="col">
             <div className="containings">
               <div id="slide" className="no-thumbs floor-plans-banners">
-                {/* <div className="items exterior-one-slide-one-unit-5  floorplans-thumb">
-                  <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
-                  </div>
-                </div> */}
                 <div className="items exterior-one-slide-one-unit-3d-5 floorplans-thumb">
                   <div className="content">
                     <div className="name">Lorem Ipsum</div>
                     <div className="des">
                       description lorem ipsum sedts at dummy text written here.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="buttons">
@@ -134,70 +124,6 @@ const FloorPlan5 = () => {
           </Link>
         </div>
       </div>
-      {/* <div className="bottom-navigations-bar">
-        <div className="mini-navigation-bar">
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights"}>
-              <FontAwesomeIcon
-                icon={faHouse}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Home</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/location"}>
-              <FontAwesomeIcon
-                icon={faLocationDot}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Location</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/amenities"}>
-              <FontAwesomeIcon
-                icon={faHeart}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Amenities</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/projects/hadley-heights/units"}>
-              <FontAwesomeIcon
-                icon={faWindowRestore}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Units & Floor</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/"}>
-              <FontAwesomeIcon
-                icon={faShield}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Collaterals</h4>
-            </Link>
-          </div>
-          <div className="navigation-content">
-            <Link to={"/"}>
-              <FontAwesomeIcon
-                icon={faDoorOpen}
-                className="icons-section-bottom-navigation"
-              />
-              <br />
-              <h4 className="bottom-navigation-item">Back</h4>
-            </Link>
-          </div>
-        </div>
-      </div> */}
       <ProjectBottomBar />
       <div className="right-navigation-menu">
         <div className="left-navigation-menu">

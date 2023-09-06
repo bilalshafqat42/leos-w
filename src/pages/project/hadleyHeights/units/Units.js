@@ -85,7 +85,6 @@ const Units = () => {
                     <div className="des">
                       Your home in Jumeirah Village Circle (JVC)
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-one">
@@ -94,7 +93,6 @@ const Units = () => {
                     <div className="des">
                       Designed and built to the highest quality specifications
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-two">
@@ -103,7 +101,6 @@ const Units = () => {
                     <div className="des">
                       Choose from studios, 1 & 2 bedroom apartments
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="buttons">
@@ -731,7 +728,7 @@ const Units = () => {
               </div>
             ))}
           </div>
-          <div className="row gx-2 m-1">
+          {/* <div className="row gx-2 m-1">
             {twentythreeFloors.map((twentythreeFloor, index) => (
               <div key={index} className="col-6">
                 <div
@@ -756,7 +753,7 @@ const Units = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

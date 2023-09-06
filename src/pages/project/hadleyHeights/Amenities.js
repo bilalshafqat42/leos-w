@@ -50,7 +50,6 @@ const Amenities = () => {
                       Enjoy a selection of refreshments & light bites at our
                       organic café.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twelve">
@@ -59,7 +58,6 @@ const Amenities = () => {
                     <div className="des">
                       A beautiful contemporary lobby welcomes you.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-thirteen">
@@ -68,7 +66,6 @@ const Amenities = () => {
                     <div className="des">
                       Residents and guests can enjoy comfortable seating areas.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-fourteen">
@@ -78,7 +75,6 @@ const Amenities = () => {
                       The lobby features a co-working space for remote working
                       professionals.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-fifteen">
@@ -88,7 +84,6 @@ const Amenities = () => {
                       The lobby features a co-working space for remote working
                       professionals.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-sixteen">
@@ -98,7 +93,6 @@ const Amenities = () => {
                       Residents will enjoy a fully-equipped gymnasium with the
                       latest equipment.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-seventeen">
@@ -108,7 +102,6 @@ const Amenities = () => {
                       Swim, sunbathe, relax and unwind at the community swimming
                       pool.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-eighteen">
@@ -118,7 +111,6 @@ const Amenities = () => {
                       Meditate, read, practice yoga and find your zen in the
                       Japanese inspired garden.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-ninteen">
@@ -128,7 +120,6 @@ const Amenities = () => {
                       Enjoy balmy evenings at our outdoor cinema with friends
                       and family.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty">
@@ -138,7 +129,6 @@ const Amenities = () => {
                       Grow your own organic produce and educate your little ones
                       about sustainability.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty-one">
@@ -148,7 +138,6 @@ const Amenities = () => {
                       Perfect for boxing enthusiasts, adrenalin junkies and
                       fitness lovers.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty-two">
@@ -158,7 +147,6 @@ const Amenities = () => {
                       A studio designed for children and adults who love to
                       dance.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty-three">
@@ -168,7 +156,6 @@ const Amenities = () => {
                       Get creative in our dedicated art academy with a variety
                       of workshops.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty-four">
@@ -178,7 +165,6 @@ const Amenities = () => {
                       The perfect space for your little ones to play and engage
                       with other children.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty-five">
@@ -187,7 +173,6 @@ const Amenities = () => {
                     <div className="des">
                       Powered by AI, get access to all your daily essentials.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty-six">
@@ -197,7 +182,6 @@ const Amenities = () => {
                       De-stress and rejuvenate your mind, body and soul in the
                       sauna.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty-seven">
@@ -207,7 +191,6 @@ const Amenities = () => {
                       Enjoy an iced tea or an oriental infusion at our tea
                       kiosk.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-twenty-eight">
@@ -216,7 +199,6 @@ const Amenities = () => {
                     <div className="des">
                       Cook your freshly made pizzas in our community pizza oven.
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
 

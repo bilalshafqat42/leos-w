@@ -52,11 +52,9 @@ const Location = () => {
               <div id="slide">
                 <div className="items exterior-one-slide-one-map-location">
                   <div className="content">
-                    <div className="name">Lorem Ipsum</div>
-                    <div className="des">
-                      description lorem ipsum sedts at dummy text written here.
-                    </div>
-                    <button>See More</button>
+                    <div className="name"></div>
+                    <div className="des"></div>
+                    {/* <button>See More</button> */}
                   </div>
                 </div>
                 <div className="buttons">

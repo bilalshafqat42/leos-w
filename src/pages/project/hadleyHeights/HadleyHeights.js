@@ -55,7 +55,6 @@ const HadleyHeights = () => {
                     <div className="des">
                       Your home in Jumeirah Village Circle (JVC)
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-two">
@@ -64,7 +63,6 @@ const HadleyHeights = () => {
                     <div className="des">
                       Designed and built to the highest quality specifications
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-three">
@@ -73,7 +71,6 @@ const HadleyHeights = () => {
                     <div className="des">
                       Choose from studios, 1 & 2 bedroom apartments
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="items exterior-one-slide-four">
@@ -82,7 +79,6 @@ const HadleyHeights = () => {
                     <div className="des">
                       Choose from studios, 1 & 2 bedroom apartments
                     </div>
-                    <button>See More</button>
                   </div>
                 </div>
                 <div className="buttons">
